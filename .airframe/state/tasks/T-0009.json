@@ -19,7 +19,7 @@
       "minor" : 0,
       "patch" : 0
     },
-    "updatedAt" : "2026-09-05T21:53:36Z"
+    "updatedAt" : "2026-09-05T21:57:56Z"
   },
   "notes" : [
     "Planning only; SP-001 activation and implementation require explicit user authorization.",
@@ -44,7 +44,7 @@
       "rawValue" : "T-0009"
     },
     "kind" : "task",
-    "status" : "active",
+    "status" : "implementedNotVerified",
     "title" : "Create and connect the GitHub repository"
   }
 }
