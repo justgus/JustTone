@@ -12,7 +12,7 @@
       "minor" : 0,
       "patch" : 0
     },
-    "updatedAt" : "2026-09-05T21:13:47Z"
+    "updatedAt" : "2026-09-05T21:57:56Z"
   },
   "notes" : [
     "Dates and activation await user approval."
@@ -20,9 +20,6 @@
   "taskIDs" : [
     {
       "rawValue" : "T-0001"
-    },
-    {
-      "rawValue" : "T-0009"
     },
     {
       "rawValue" : "T-0010"
@@ -38,6 +35,9 @@
     },
     {
       "rawValue" : "T-0014"
+    },
+    {
+      "rawValue" : "T-0009"
     }
   ],
   "workItem" : {
