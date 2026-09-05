@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-068"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-062"
+    }
+  ],
+  "priority" : "medium",
+  "rationale" : "Approved built-in content requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "The musician shall be able to browse or filter built-in content by instrument family, tradition or region, historical period, tuning-system family, and intended use where those classifications apply.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Content Classification and Filtering",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

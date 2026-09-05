@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-028"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Observed behavior matches the approved requirement without unexpected playback, data loss, or inaccessible state."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-080"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify all required profile and tuning objects synchronize automatically to the paired Watch.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-056"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise the requirement across its normal, boundary, disconnected, and failure conditions as applicable."
+  ],
+  "title" : "Automatic Watch synchronization",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-006"
+    }
+  ]
+}

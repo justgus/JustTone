@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Data remains recoverable, deterministic, bounded, and consistent with the approved interchange behavior."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-172"
+  },
+  "kind" : "manual",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify help makes no unsupported preservation promise and explains recovery paths.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-089"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise valid, boundary, conflicting, corrupt, and unsupported data cases as applicable."
+  ],
+  "title" : "Reinstallation guidance review",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

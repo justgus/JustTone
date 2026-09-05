@@ -1,0 +1,45 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-007"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-UR-002"
+    },
+    {
+      "rawValue" : "JT-FR-004"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Musicians need to represent personal, instrument-specific, and underrepresented systems without external tooling.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "A musician shall be able to create, edit, duplicate, name, and delete custom tuning systems using cents, frequency ratios, equal divisions, or explicit frequencies.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Custom Tuning-System Authoring",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

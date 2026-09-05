@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Observed behavior matches the approved requirement without unexpected playback, data loss, or inaccessible state."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-079"
+  },
+  "kind" : "manual",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify active-route disclosure and route-change stop behavior on Watch.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-055"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise the requirement across its normal, boundary, disconnected, and failure conditions as applicable."
+  ],
+  "title" : "Watch audio routes",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-006"
+    }
+  ]
+}

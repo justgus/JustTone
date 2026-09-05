@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-100"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-NFR-052"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved privacy, localization, help, and error requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "If no valid playable profile is available, JustTone shall remain silent and offer clear actions to restore built-ins, create a profile, or import valid data.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Empty-State Recovery",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

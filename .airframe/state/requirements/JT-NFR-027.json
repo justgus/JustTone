@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-NFR-027"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-NFR-025"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved platform and release scope requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Simulator tests may qualify calculations, persistence, synchronization logic, and interface behavior, but shall not qualify physical audio output, route behavior, interruption behavior, background playback, wrist-down behavior, perceived timbre, latency, or hearing-safety behavior.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Simulator Testing Boundary",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "inspection"
+}

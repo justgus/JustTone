@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-NFR-043"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-NFR-038"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved performance and reliability requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Battery consumption shall be measured separately for iPhone foreground playback, iPhone locked or background playback, Watch active-display playback, Watch wrist-down playback, and built-in and representative wireless routes. Results shall become release evidence and a material unexplained regression shall block release authorization.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Energy Qualification",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

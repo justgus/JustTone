@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Note or frequency, timbre, playback state, and functional stop control are exposed where supported."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-035"
+  },
+  "kind" : "acceptance",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify active-tone metadata and stop control on applicable system surfaces.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-023"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Inspect Lock Screen and applicable system media controls during playback and invoke stop."
+  ],
+  "title" : "System media-control acceptance",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-SR-006"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-SR-002"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved hearing-safety requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "JustTone shall not describe an in-app output percentage, digital peak, device volume position, or uncalibrated route estimate as a safe sound-pressure level.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "No False Safe-Level Claim",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "inspection"
+}

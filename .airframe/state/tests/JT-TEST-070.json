@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-026"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Observed behavior matches the approved requirement without unexpected playback, data loss, or inaccessible state."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-070"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify local Watch playback while the paired iPhone is absent or unreachable.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-046"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise the requirement across its normal, boundary, disconnected, and failure conditions as applicable."
+  ],
+  "title" : "Independent Watch playback",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-006"
+    }
+  ]
+}

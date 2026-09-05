@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-057"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-056"
+    }
+  ],
+  "priority" : "medium",
+  "rationale" : "Approved Watch operating-model requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Creation, detailed editing, import, export, conflict resolution, hiding, restoration, and deletion of profiles and tuning systems shall occur on the iPhone. The first Watch release shall provide selection and playback rather than full profile authoring.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "iPhone Profile Administration",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "inspection"
+}

@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "The catalog data and behavior satisfy the approved requirement with reviewable evidence."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-092"
+  },
+  "kind" : "manual",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify every culturally specific definition contains all required provenance and qualification fields.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-063"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Inspect representative and boundary catalog records and exercise the applicable user workflow."
+  ],
+  "title" : "Tuning-system provenance audit",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

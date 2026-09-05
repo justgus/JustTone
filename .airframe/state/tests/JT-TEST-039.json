@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+    "physical-device system-alert matrix"
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "The reference tone continues without engine stop; alert sound or suppression follows operating-system policy."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-039"
+  },
+  "kind" : "acceptance",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify ordinary alerts and notifications do not stop active reference playback where iOS permits.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-021"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "During physical-device playback, deliver representative message, mail, calendar, and banner-style incoming-call notifications."
+  ],
+  "title" : "Transient system-alert continuity",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

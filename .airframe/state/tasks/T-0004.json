@@ -1,0 +1,46 @@
+{
+  "acceptanceCriteria" : [
+    "A musician can choose a profile and note and deliberately start or stop its tone with few taps.",
+    "The UI displays note name, octave, and frequency clearly.",
+    "Controls support Dynamic Type, VoiceOver, sufficient contrast, and non-color state cues.",
+    "The visual identity resembles the JustTune product family without confusing either app."
+  ],
+  "component" : "iPhone UI",
+  "componentsAffected" : [
+    "iPhone"
+  ],
+  "epicID" : {
+    "rawValue" : "EP-005"
+  },
+  "evidenceIDs" : [
+
+  ],
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "updatedAt" : "2026-09-04T19:40:25Z"
+  },
+  "notes" : [
+
+  ],
+  "priority" : "high",
+  "rationale" : "The primary interaction must be fast and readable while holding or playing an instrument.",
+  "requirementIDs" : [
+
+  ],
+  "testSteps" : [
+    "Exercise primary flows on representative iPhone sizes.",
+    "Run accessibility inspection and VoiceOver checks."
+  ],
+  "workItem" : {
+    "id" : {
+      "rawValue" : "T-0004"
+    },
+    "kind" : "task",
+    "status" : "backlog",
+    "title" : "Create the accessible iPhone experience"
+  }
+}

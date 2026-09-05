@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+    "archive resource inventory and size report"
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "No large prerecorded instrument-sample library is present and any supporting audio resource has explicit justification."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-022"
+  },
+  "kind" : "dataValidation",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify JustTone timbres use compact synthesis definitions rather than a large recorded sample library.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-001"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Inspect packaged audio resources, their purposes, and their contribution to application size."
+  ],
+  "title" : "Packaged audio-resource inspection",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

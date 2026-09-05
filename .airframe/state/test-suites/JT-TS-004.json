@@ -1,0 +1,327 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-016"
+    },
+    {
+      "rawValue" : "JT-AC-017"
+    },
+    {
+      "rawValue" : "JT-AC-018"
+    },
+    {
+      "rawValue" : "JT-AC-019"
+    },
+    {
+      "rawValue" : "JT-AC-020"
+    }
+  ],
+  "id" : {
+    "rawValue" : "JT-TS-004"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+    "Baseline candidate grouping; execution and verification await authorized implementation."
+  ],
+  "objective" : "Qualify all requirements assigned to EP-004.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-UR-002"
+    },
+    {
+      "rawValue" : "JT-FR-008"
+    },
+    {
+      "rawValue" : "JT-FR-009"
+    },
+    {
+      "rawValue" : "JT-FR-010"
+    },
+    {
+      "rawValue" : "JT-DR-001"
+    },
+    {
+      "rawValue" : "JT-SR-001"
+    },
+    {
+      "rawValue" : "JT-FR-027"
+    },
+    {
+      "rawValue" : "JT-FR-028"
+    },
+    {
+      "rawValue" : "JT-FR-029"
+    },
+    {
+      "rawValue" : "JT-FR-030"
+    },
+    {
+      "rawValue" : "JT-FR-031"
+    },
+    {
+      "rawValue" : "JT-FR-032"
+    },
+    {
+      "rawValue" : "JT-FR-033"
+    },
+    {
+      "rawValue" : "JT-FR-034"
+    },
+    {
+      "rawValue" : "JT-DR-002"
+    },
+    {
+      "rawValue" : "JT-NFR-005"
+    },
+    {
+      "rawValue" : "JT-FR-035"
+    },
+    {
+      "rawValue" : "JT-FR-062"
+    },
+    {
+      "rawValue" : "JT-FR-063"
+    },
+    {
+      "rawValue" : "JT-FR-064"
+    },
+    {
+      "rawValue" : "JT-FR-065"
+    },
+    {
+      "rawValue" : "JT-FR-066"
+    },
+    {
+      "rawValue" : "JT-FR-067"
+    },
+    {
+      "rawValue" : "JT-FR-068"
+    },
+    {
+      "rawValue" : "JT-FR-069"
+    },
+    {
+      "rawValue" : "JT-FR-070"
+    },
+    {
+      "rawValue" : "JT-DR-005"
+    },
+    {
+      "rawValue" : "JT-DR-007"
+    },
+    {
+      "rawValue" : "JT-DR-008"
+    },
+    {
+      "rawValue" : "JT-DR-009"
+    },
+    {
+      "rawValue" : "JT-FR-086"
+    },
+    {
+      "rawValue" : "JT-FR-087"
+    },
+    {
+      "rawValue" : "JT-NFR-052"
+    },
+    {
+      "rawValue" : "JT-NFR-053"
+    },
+    {
+      "rawValue" : "JT-NFR-054"
+    },
+    {
+      "rawValue" : "JT-FR-088"
+    },
+    {
+      "rawValue" : "JT-FR-089"
+    },
+    {
+      "rawValue" : "JT-DR-011"
+    },
+    {
+      "rawValue" : "JT-DR-012"
+    },
+    {
+      "rawValue" : "JT-DR-013"
+    },
+    {
+      "rawValue" : "JT-DR-014"
+    },
+    {
+      "rawValue" : "JT-DR-015"
+    },
+    {
+      "rawValue" : "JT-SR-014"
+    },
+    {
+      "rawValue" : "JT-SR-015"
+    },
+    {
+      "rawValue" : "JT-FR-090"
+    },
+    {
+      "rawValue" : "JT-DR-016"
+    },
+    {
+      "rawValue" : "JT-SR-024"
+    },
+    {
+      "rawValue" : "JT-SR-025"
+    }
+  ],
+  "status" : "ready",
+  "testIDs" : [
+    {
+      "rawValue" : "JT-TEST-005"
+    },
+    {
+      "rawValue" : "JT-TEST-013"
+    },
+    {
+      "rawValue" : "JT-TEST-014"
+    },
+    {
+      "rawValue" : "JT-TEST-015"
+    },
+    {
+      "rawValue" : "JT-TEST-016"
+    },
+    {
+      "rawValue" : "JT-TEST-017"
+    },
+    {
+      "rawValue" : "JT-TEST-042"
+    },
+    {
+      "rawValue" : "JT-TEST-043"
+    },
+    {
+      "rawValue" : "JT-TEST-044"
+    },
+    {
+      "rawValue" : "JT-TEST-045"
+    },
+    {
+      "rawValue" : "JT-TEST-046"
+    },
+    {
+      "rawValue" : "JT-TEST-047"
+    },
+    {
+      "rawValue" : "JT-TEST-048"
+    },
+    {
+      "rawValue" : "JT-TEST-049"
+    },
+    {
+      "rawValue" : "JT-TEST-050"
+    },
+    {
+      "rawValue" : "JT-TEST-051"
+    },
+    {
+      "rawValue" : "JT-TEST-052"
+    },
+    {
+      "rawValue" : "JT-TEST-091"
+    },
+    {
+      "rawValue" : "JT-TEST-092"
+    },
+    {
+      "rawValue" : "JT-TEST-093"
+    },
+    {
+      "rawValue" : "JT-TEST-094"
+    },
+    {
+      "rawValue" : "JT-TEST-095"
+    },
+    {
+      "rawValue" : "JT-TEST-096"
+    },
+    {
+      "rawValue" : "JT-TEST-097"
+    },
+    {
+      "rawValue" : "JT-TEST-098"
+    },
+    {
+      "rawValue" : "JT-TEST-099"
+    },
+    {
+      "rawValue" : "JT-TEST-100"
+    },
+    {
+      "rawValue" : "JT-TEST-162"
+    },
+    {
+      "rawValue" : "JT-TEST-163"
+    },
+    {
+      "rawValue" : "JT-TEST-164"
+    },
+    {
+      "rawValue" : "JT-TEST-165"
+    },
+    {
+      "rawValue" : "JT-TEST-166"
+    },
+    {
+      "rawValue" : "JT-TEST-168"
+    },
+    {
+      "rawValue" : "JT-TEST-169"
+    },
+    {
+      "rawValue" : "JT-TEST-170"
+    },
+    {
+      "rawValue" : "JT-TEST-171"
+    },
+    {
+      "rawValue" : "JT-TEST-172"
+    },
+    {
+      "rawValue" : "JT-TEST-173"
+    },
+    {
+      "rawValue" : "JT-TEST-174"
+    },
+    {
+      "rawValue" : "JT-TEST-175"
+    },
+    {
+      "rawValue" : "JT-TEST-176"
+    },
+    {
+      "rawValue" : "JT-TEST-177"
+    },
+    {
+      "rawValue" : "JT-TEST-178"
+    },
+    {
+      "rawValue" : "JT-TEST-179"
+    },
+    {
+      "rawValue" : "JT-TEST-180"
+    },
+    {
+      "rawValue" : "JT-TEST-181"
+    },
+    {
+      "rawValue" : "JT-TEST-190"
+    },
+    {
+      "rawValue" : "JT-TEST-191"
+    }
+  ],
+  "title" : "Profiles catalog persistence and interchange"
+}

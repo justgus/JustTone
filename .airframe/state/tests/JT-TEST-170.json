@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Data remains recoverable, deterministic, bounded, and consistent with the approved interchange behavior."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-170"
+  },
+  "kind" : "regression",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify stable semantic output and zero pitch, identity, or metadata drift.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-054"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise valid, boundary, conflicting, corrupt, and unsupported data cases as applicable."
+  ],
+  "title" : "Deterministic export round trip",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

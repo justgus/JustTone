@@ -1,0 +1,49 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-002"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Release evidence satisfies the approved platform and hardware scope requirement."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-126"
+  },
+  "kind" : "regression",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify no JustTune name, identifier, asset, permission behavior, or artifact contaminates JustTone.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-028"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Inspect release configuration and exercise the applicable simulator and physical-device matrix."
+  ],
+  "title" : "JustTone identity contamination audit",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-001"
+    },
+    {
+      "rawValue" : "SP-001"
+    }
+  ]
+}

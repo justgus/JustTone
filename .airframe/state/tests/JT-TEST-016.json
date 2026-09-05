@@ -1,0 +1,45 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+    "schema, canonical fixtures, and compatibility matrix"
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Schema-valid documents retain all supplied semantics and encode every numeric pitch with an explicit unit or representation."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-016"
+  },
+  "kind" : "dataValidation",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify the interchange schema is versioned, unambiguous, stable, and preserves optional context.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-DR-001"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Validate canonical fixtures for all pitch representations and optional metadata fields.",
+    "Round-trip stable identifiers, display names, provenance, author, description, region, tradition, instrument, and source."
+  ],
+  "title" : "Tuning interchange schema compatibility",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

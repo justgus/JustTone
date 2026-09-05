@@ -1,0 +1,45 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-033"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-027"
+    },
+    {
+      "rawValue" : "JT-FR-003"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Stored profiles must reproduce their intended pitches and disclose conflicts with current settings.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Each profile shall retain the tuning system and reference-pitch configuration used to calculate its pitches; changing the global default shall not silently alter an existing profile, and selecting a profile whose tuning system or reference differs from the currently selected configuration shall display a non-blocking warning before playback.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Reproducible Profile Tuning",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

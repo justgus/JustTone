@@ -1,0 +1,45 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-SR-001"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-008"
+    },
+    {
+      "rawValue" : "JT-DR-001"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Untrusted imports must not execute code, corrupt the library, or exhaust app resources.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Imported tuning documents shall contain data only, shall not execute code, and shall be validated for schema version, numeric bounds, finite values, structural limits, and references before becoming active.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Safe Import Processing",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

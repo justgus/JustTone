@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-034"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Measurements and observed recovery satisfy every approved threshold and state constraint."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-145"
+  },
+  "kind" : "unit",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Exhaustively cover defined and conflicting playback-state transitions.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-045"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise the specified performance or failure scenario on the required device and route matrix."
+  ],
+  "title" : "Playback state machine",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-007"
+    }
+  ]
+}

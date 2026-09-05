@@ -1,0 +1,46 @@
+{
+  "acceptanceCriteria" : [
+    "Built-in profiles cover the user-approved version 1 instrument list.",
+    "Users can create, rename, duplicate, reorder, and delete profiles and their notes.",
+    "Profiles support arbitrary practical note counts rather than assuming six strings.",
+    "Versioned persistence survives relaunch and rejects or repairs invalid values safely."
+  ],
+  "component" : "Profiles",
+  "componentsAffected" : [
+    "Shared",
+    "iPhone"
+  ],
+  "epicID" : {
+    "rawValue" : "EP-004"
+  },
+  "evidenceIDs" : [
+
+  ],
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "updatedAt" : "2026-09-04T19:40:25Z"
+  },
+  "notes" : [
+
+  ],
+  "priority" : "high",
+  "rationale" : "The product must serve a multi-instrument musician without hard-coded instrument assumptions.",
+  "requirementIDs" : [
+
+  ],
+  "testSteps" : [
+    "Test profile validation, ordering, CRUD operations, round-trip persistence, and migration."
+  ],
+  "workItem" : {
+    "id" : {
+      "rawValue" : "T-0003"
+    },
+    "kind" : "task",
+    "status" : "backlog",
+    "title" : "Build tuning profiles and local persistence"
+  }
+}

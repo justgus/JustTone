@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Data remains recoverable, deterministic, bounded, and consistent with the approved interchange behavior."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-162"
+  },
+  "kind" : "acceptance",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify user data works without account, server, or network.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-DR-007"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise valid, boundary, conflicting, corrupt, and unsupported data cases as applicable."
+  ],
+  "title" : "Local-only data operation",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

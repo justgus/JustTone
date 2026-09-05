@@ -1,0 +1,24 @@
+# Apple and Xcode generated state
+.DS_Store
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Swift Package Manager generated output
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+
+# Test and profiling artifacts
+*.profraw
+*.xcresult
+
+# Agile Cockpit derived caches (canonical .airframe/state remains tracked)
+.airframe/agilecockpit-launch-cache.json
+.airframe/agilecockpit-traceability-cache.json
+
+# Local secrets and environment overrides
+.env
+.env.*
+*.pem
+*.p12
+*.mobileprovision

@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Group labels and order persist, and grouping does not alter pitch resolution."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-046"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify entries may be organized into labeled ordered groups such as courses or sections without changing their pitches.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-031"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Create, label, reorder, persist, and remove groups containing multiple pitch entries."
+  ],
+  "title" : "Optional pitch grouping",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

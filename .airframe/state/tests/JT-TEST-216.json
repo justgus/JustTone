@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "The candidate and its release materials satisfy the approved requirement and preserve the human authorization gate."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-216"
+  },
+  "kind" : "acceptance",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify upgrade and migration qualification against the approved release requirement.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-066"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Inspect the exact release candidate, App Store records, supporting services, and evidence as applicable."
+  ],
+  "title" : "Upgrade and migration qualification",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-008"
+    }
+  ]
+}

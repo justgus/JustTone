@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Measurements and observed recovery satisfy every approved threshold and state constraint."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-133"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Measure visual or semantic feedback latency for every primary control.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-035"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise the specified performance or failure scenario on the required device and route matrix."
+  ],
+  "title" : "Interaction feedback latency",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

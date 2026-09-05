@@ -1,0 +1,47 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Release evidence satisfies the approved platform and hardware scope requirement."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-118"
+  },
+  "kind" : "acceptance",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify iOS and watchOS deployment targets are 27.0 and compatible with qualified 27.x releases.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-023"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Inspect release configuration and exercise the applicable simulator and physical-device matrix."
+  ],
+  "title" : "Deployment targets",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-001"
+    },
+    {
+      "rawValue" : "SP-001"
+    }
+  ]
+}

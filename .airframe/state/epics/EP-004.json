@@ -1,0 +1,61 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-016"
+    },
+    {
+      "rawValue" : "JT-AC-017"
+    },
+    {
+      "rawValue" : "JT-AC-018"
+    },
+    {
+      "rawValue" : "JT-AC-019"
+    },
+    {
+      "rawValue" : "JT-AC-020"
+    }
+  ],
+  "goal" : "Deliver reusable profiles, catalog data, durable local persistence, and bounded portable interchange.",
+  "issueIDs" : [
+
+  ],
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "updatedAt" : "2026-09-05T21:06:19Z"
+  },
+  "notes" : [
+
+  ],
+  "outOfScope" : [
+
+  ],
+  "owner" : "",
+  "planningDocumentPaths" : [
+
+  ],
+  "rationale" : "",
+  "scope" : [
+
+  ],
+  "sprintIDs" : [
+
+  ],
+  "taskIDs" : [
+    {
+      "rawValue" : "T-0003"
+    }
+  ],
+  "workItem" : {
+    "id" : {
+      "rawValue" : "EP-004"
+    },
+    "kind" : "epic",
+    "status" : "backlog",
+    "title" : "Profiles, Catalog, Persistence, and Interchange"
+  }
+}

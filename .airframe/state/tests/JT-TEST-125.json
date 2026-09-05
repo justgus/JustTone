@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Release evidence satisfies the approved platform and hardware scope requirement."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-125"
+  },
+  "kind" : "manual",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify simulator evidence is not used to qualify physical-device-only behaviors.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-027"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Inspect release configuration and exercise the applicable simulator and physical-device matrix."
+  ],
+  "title" : "Evidence-source audit",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-001"
+    }
+  ]
+}

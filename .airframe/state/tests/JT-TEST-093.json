@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "The catalog data and behavior satisfy the approved requirement with reviewable evidence."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-093"
+  },
+  "kind" : "manual",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify variable tunings are clearly presented as examples, documented models, or editable templates.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-064"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Inspect representative and boundary catalog records and exercise the applicable user workflow."
+  ],
+  "title" : "Variable-tradition presentation audit",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "acceptanceCriteria" : [
+    "The engine produces the requested equal-tempered frequency using configurable concert A.",
+    "Starting, stopping, and changing pitch are ramped to avoid clicks.",
+    "Playback never starts implicitly and responds predictably to interruption and route changes.",
+    "Frequency math and engine state behavior have focused automated tests."
+  ],
+  "component" : "Audio",
+  "componentsAffected" : [
+    "Shared",
+    "iPhone"
+  ],
+  "epicID" : {
+    "rawValue" : "EP-003"
+  },
+  "evidenceIDs" : [
+
+  ],
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "updatedAt" : "2026-09-04T19:40:25Z"
+  },
+  "notes" : [
+    "Begin with a sine waveform and conservative output level."
+  ],
+  "priority" : "high",
+  "rationale" : "Accurate, safe, click-free tone generation is the core product capability.",
+  "requirementIDs" : [
+
+  ],
+  "testSteps" : [
+    "Verify calculated frequencies against known note values.",
+    "Inspect generated buffers for continuity and bounded amplitude.",
+    "Perform physical-device listening checks before verification."
+  ],
+  "workItem" : {
+    "id" : {
+      "rawValue" : "T-0002"
+    },
+    "kind" : "task",
+    "status" : "backlog",
+    "title" : "Implement the reference-tone audio engine"
+  }
+}

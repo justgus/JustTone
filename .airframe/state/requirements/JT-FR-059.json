@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-059"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-056"
+    }
+  ],
+  "priority" : "medium",
+  "rationale" : "Approved Watch operating-model requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "The Watch shall provide a secondary status view showing whether it has valid local data, whether synchronization is pending, the time of the last successful update, and any actionable synchronization failure.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Synchronization Status",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

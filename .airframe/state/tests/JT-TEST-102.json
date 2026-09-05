@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Measured and observed output satisfies the approved timbre requirement."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-102"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify only one selected fundamental is rendered at a time.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-071"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise every shipped timbre across representative and boundary pitches, states, devices, and routes as applicable."
+  ],
+  "title" : "Monophonic output",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

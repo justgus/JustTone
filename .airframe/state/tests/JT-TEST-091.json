@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-020"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "The catalog data and behavior satisfy the approved requirement with reviewable evidence."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-091"
+  },
+  "kind" : "dataValidation",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify the released catalog and its manifest share a version and enumerate identical content.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-062"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Inspect representative and boundary catalog records and exercise the applicable user workflow."
+  ],
+  "title" : "Built-in catalog manifest",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

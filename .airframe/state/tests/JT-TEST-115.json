@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Measured and observed output satisfies the approved timbre requirement."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-115"
+  },
+  "kind" : "regression",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Measure long sustained output for drift, decay, growth, discontinuity, and state exhaustion.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-021"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise every shipped timbre across representative and boundary pitches, states, devices, and routes as applicable."
+  ],
+  "title" : "Sustained-signal stability",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Playback stops, UI shows stopped, and no new route plays until explicit restart."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-033"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify every active route change stops playback pending explicit restart.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-SR-004"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Connect, disconnect, and switch routes during playback."
+  ],
+  "title" : "Route-change safety",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-007"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-014"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Measurements and observed recovery satisfy every approved threshold and state constraint."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-143"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Inject startup and runtime failures and verify truthful state, retention, error, and Retry.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-083"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise the specified performance or failure scenario on the required device and route matrix."
+  ],
+  "title" : "Audio-engine failure recovery",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

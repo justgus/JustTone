@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-SR-003"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-UR-001"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Playback must always reflect deliberate musician intent.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "JustTone shall not start or resume playback because of app launch, foregrounding, unlocking, note selection, profile selection, route connection, or interruption recovery.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "No Unexpected Playback",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

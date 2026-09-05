@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Behavior satisfies the approved requirement without leakage or inaccessible recovery."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-199"
+  },
+  "kind" : "manual",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify faithful source terms and reviewed translations.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-058"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise representative privacy, locale, accessibility, failure, and release configurations."
+  ],
+  "title" : "Proper-term fidelity review",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-005"
+    }
+  ]
+}

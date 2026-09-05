@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "The catalog data and behavior satisfy the approved requirement with reviewable evidence."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-097"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify every applicable catalog classification can be browsed and filtered accurately.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-068"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Inspect representative and boundary catalog records and exercise the applicable user workflow."
+  ],
+  "title" : "Catalog filtering",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

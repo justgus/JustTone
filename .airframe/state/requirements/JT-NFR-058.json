@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-NFR-058"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-063"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved privacy, localization, help, and error requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Names of people, publications, tuning systems, traditions, and source titles shall remain faithful to catalog metadata unless a reviewed localized form is provided. Absence of a translation shall not erase or replace the original.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Nonlocalized Proper Terms",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "mixed"
+}

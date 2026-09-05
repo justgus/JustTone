@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Behavior and copy satisfy the approved safety boundary without unexpected playback or unsupported claims."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-156"
+  },
+  "kind" : "manual",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify unsupported SPL and exposure estimates are omitted rather than guessed.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-SR-013"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise the applicable level, pitch, duration, route, accessibility, and physical-device conditions."
+  ],
+  "title" : "Uncalibrated decibel presentation audit",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-007"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "The catalog data and behavior satisfy the approved requirement with reviewable evidence."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-098"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify searches by text metadata, named pitch, and sounding frequency return matching built-in and custom objects.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-069"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Inspect representative and boundary catalog records and exercise the applicable user workflow."
+  ],
+  "title" : "Catalog metadata and pitch search",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

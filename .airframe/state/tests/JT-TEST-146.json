@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Measurements and observed recovery satisfy every approved threshold and state constraint."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-146"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Stress rapid edits during playback and verify responsiveness and latest-state durability.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-046"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise the specified performance or failure scenario on the required device and route matrix."
+  ],
+  "title" : "Concurrent persistence responsiveness",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-007"
+    }
+  ]
+}

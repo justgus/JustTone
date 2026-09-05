@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Behavior and copy satisfy the approved safety boundary without unexpected playback or unsupported claims."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-154"
+  },
+  "kind" : "regression",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify no unauthorized safety attenuation occurs across playback scenarios.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-SR-011"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise the applicable level, pitch, duration, route, accessibility, and physical-device conditions."
+  ],
+  "title" : "Unannounced attenuation audit",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-007"
+    }
+  ]
+}

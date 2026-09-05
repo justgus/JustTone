@@ -1,0 +1,50 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-001"
+    }
+  ],
+  "artifactReferences" : [
+    "xcodebuild result bundles for iPhone and Watch schemes"
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Both applications build, install, and launch using the release-candidate toolchain."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-002"
+  },
+  "kind" : "acceptance",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify that JustTone is delivered as an iPhone app with an Apple Watch companion.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-BR-002"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Build and launch the iPhone application on a supported iOS 27 destination.",
+    "Build and launch the companion application on a paired supported watchOS 27 destination."
+  ],
+  "title" : "Supported platform build and launch acceptance",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-001"
+    },
+    {
+      "rawValue" : "SP-001"
+    }
+  ]
+}

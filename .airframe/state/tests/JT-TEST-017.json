@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+    "adversarial import fixture corpus and state-integrity report"
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Every invalid document is rejected safely with an actionable error and no partial library mutation or code execution."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-017"
+  },
+  "kind" : "regression",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify untrusted documents cannot execute code, bypass validation, corrupt state, or exhaust resources.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-SR-001"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Attempt malformed, oversized, deeply nested, unsupported-version, non-finite, out-of-range, unresolved-reference, and executable-content fixtures."
+  ],
+  "title" : "Hostile and malformed import rejection",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

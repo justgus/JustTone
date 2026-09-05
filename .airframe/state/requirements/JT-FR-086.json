@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-086"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-010"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved data ownership and interchange requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "The iPhone app shall export an individual profile; selected profiles with required tuning dependencies; an individual custom tuning system; or all user-created musical data as one backup document. Built-ins shall normally use stable references and catalog versions rather than unnecessary duplication.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Export Selected or All User Data",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

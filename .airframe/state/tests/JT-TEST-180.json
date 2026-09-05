@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Data remains recoverable, deterministic, bounded, and consistent with the approved interchange behavior."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-180"
+  },
+  "kind" : "manual",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify descriptive fields, explicit units, and consistent human-readable formatting.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-090"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise valid, boundary, conflicting, corrupt, and unsupported data cases as applicable."
+  ],
+  "title" : "Document readability inspection",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

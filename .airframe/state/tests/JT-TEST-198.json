@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Behavior satisfies the approved requirement without leakage or inaccessible recovery."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-198"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Exercise pseudo-localization, non-Latin text, numbers, and RTL.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-057"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise representative privacy, locale, accessibility, failure, and release configurations."
+  ],
+  "title" : "Localization layout qualification",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-005"
+    }
+  ]
+}

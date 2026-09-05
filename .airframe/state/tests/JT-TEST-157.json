@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Behavior and copy satisfy the approved safety boundary without unexpected playback or unsupported claims."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-157"
+  },
+  "kind" : "unit",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Measure equal intended left and right levels for every stereo timbre and pitch boundary.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-048"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise the applicable level, pitch, duration, route, accessibility, and physical-device conditions."
+  ],
+  "title" : "Stereo balance",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-007"
+    }
+  ]
+}

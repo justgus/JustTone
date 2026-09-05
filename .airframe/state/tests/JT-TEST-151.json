@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Behavior and copy satisfy the approved safety boundary without unexpected playback or unsupported claims."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-151"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify applicable high pitch and level combinations warn without changing pitch.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-SR-009"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise the applicable level, pitch, duration, route, accessibility, and physical-device conditions."
+  ],
+  "title" : "Extreme-pitch level warning",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-007"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Measurements and observed recovery satisfy every approved threshold and state constraint."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-135"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify pitch-correct safe rebuilding across route sample rates and formats.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-037"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise the specified performance or failure scenario on the required device and route matrix."
+  ],
+  "title" : "Audio-format adaptation",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

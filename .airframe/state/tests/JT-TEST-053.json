@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-021"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Profile, pitch, sounding frequency, timbre, output level, actual playback state, and the appropriate Play or Stop control are visible."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-053"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify the primary screen prominently presents all required tone state and an unmistakable Play or Stop control.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-036"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Inspect the primary screen while stopped and playing across supported iPhone sizes."
+  ],
+  "title" : "Primary tone screen",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-005"
+    }
+  ]
+}

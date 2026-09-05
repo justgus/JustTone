@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "All valid structures are accepted, ordered, stored, and playable without forced normalization."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-045"
+  },
+  "kind" : "unit",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify profiles accept arbitrary pitch order, repeated pitches, and zero, one, or many entries within practical operating limits.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-030"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Create profiles covering empty, singleton, repeated, nonascending, and large practical entry collections."
+  ],
+  "title" : "Flexible tuning-profile structure",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

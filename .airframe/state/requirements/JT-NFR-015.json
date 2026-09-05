@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-NFR-015"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-NFR-008"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved Watch operating-model requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Playback, stopping, selection changes, warnings, and errors shall have accessibility-semantic and visual indications. Haptics may supplement these indications but shall not be the only means of communicating state.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Watch Nonvisual Feedback",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "mixed"
+}

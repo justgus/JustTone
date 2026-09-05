@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Behavior satisfies the approved requirement without leakage or inaccessible recovery."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-209"
+  },
+  "kind" : "manual",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Exercise help and recovery with approved accessibility settings.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-060"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise representative privacy, locale, accessibility, failure, and release configurations."
+  ],
+  "title" : "Error and help accessibility",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-005"
+    }
+  ]
+}

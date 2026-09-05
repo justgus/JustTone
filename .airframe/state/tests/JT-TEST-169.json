@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Data remains recoverable, deterministic, bounded, and consistent with the approved interchange behavior."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-169"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify only completely valid snapshots become recoverable last-valid state.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-053"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise valid, boundary, conflicting, corrupt, and unsupported data cases as applicable."
+  ],
+  "title" : "Atomic snapshot",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

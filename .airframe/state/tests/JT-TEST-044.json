@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-017"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Each action produces the requested persistent profile state."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-044"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify users can create, edit, rename, duplicate, reorder, and delete tuning profiles.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-029"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise every profile-management action through the user interface and relaunch the app."
+  ],
+  "title" : "Tuning profile lifecycle",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

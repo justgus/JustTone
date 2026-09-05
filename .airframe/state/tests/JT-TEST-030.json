@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+    "full-range peak analysis"
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "No clipped samples occur and maximum digital peak is no greater than −1 dBFS."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-030"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify all timbres and transitions stay at or below −1 dBFS without clipping.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-003"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Render every timbre at boundary and representative pitches and inspect samples and peaks."
+  ],
+  "title" : "Peak and clipping analysis",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

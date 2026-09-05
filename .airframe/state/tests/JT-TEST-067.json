@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Decorative motion is removed or simplified, essential state remains clear, and click-free audio behavior is unchanged."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-067"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify Reduce Motion simplifies decorative visual motion without changing audio transitions or hiding state.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-010"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Compare all animated interactions with Reduce Motion disabled and enabled while exercising playback transitions."
+  ],
+  "title" : "Reduced-motion behavior",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-007"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-013"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-012"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "A richer timbre remains a tuning reference only if its fundamental is accurate.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Every timbre shall preserve the selected pitch as its fundamental frequency and shall satisfy the same pitch-accuracy requirement.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Timbre-Independent Pitch",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

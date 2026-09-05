@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Behavior satisfies the approved requirement without leakage or inaccessible recovery."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-196"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify letter names, fixed-do, and protected source labels.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-093"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise representative privacy, locale, accessibility, failure, and release configurations."
+  ],
+  "title" : "Note-name preference",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-005"
+    }
+  ]
+}

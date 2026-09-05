@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-022"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Audio transitions directly to every selected pitch using the required click-free transition."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-055"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify pitch selection during playback transitions continuously and without an extra Play action.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-038"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Start playback and select several different entries in succession."
+  ],
+  "title" : "Active pitch transition",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-005"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-058"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-046"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved Watch operating-model requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "When the iPhone is unreachable, the Watch shall continue operating from its last valid synchronized data. It shall not require network access or display connectivity errors that obstruct playback.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Disconnected Watch Operation",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

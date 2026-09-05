@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-NFR-063"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-NFR-031"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved App Store and release qualification requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Every distributed build shall have a unique build number. Marketing versions, build versions, archive names, test evidence, privacy manifests, release notes, and App Store Connect records shall identify the same release candidate.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Build and Version Identity",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "inspection"
+}

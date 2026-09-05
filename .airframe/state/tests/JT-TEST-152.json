@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Behavior and copy satisfy the approved safety boundary without unexpected playback or unsupported claims."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-152"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify uninterrupted playback duration is accurate and accessible.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-084"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise the applicable level, pitch, duration, route, accessibility, and physical-device conditions."
+  ],
+  "title" : "Playback-duration presentation",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-005"
+    }
+  ]
+}

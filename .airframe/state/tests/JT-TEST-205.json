@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Behavior satisfies the approved requirement without leakage or inaccessible recovery."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-205"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify silent restore, create, and import recovery.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-100"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise representative privacy, locale, accessibility, failure, and release configurations."
+  ],
+  "title" : "Empty-state recovery",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-005"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-101"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-041"
+    }
+  ],
+  "priority" : "medium",
+  "rationale" : "Approved privacy, localization, help, and error requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Settings shall clearly separate playback defaults, musical presentation, catalog visibility, Watch synchronization status, hearing-safety information, data export and reset, help, privacy, and About information.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Settings Organization",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

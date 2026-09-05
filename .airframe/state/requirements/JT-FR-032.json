@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-032"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-028"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Transposing instruments require written notation to remain distinct from sounding pitch.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "A profile entry may specify both a displayed written pitch and its sounding pitch; playback shall use the sounding pitch while the interface may display either or both.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Written and Sounding Pitch",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

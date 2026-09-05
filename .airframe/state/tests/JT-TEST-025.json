@@ -1,0 +1,47 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-010"
+    }
+  ],
+  "artifactReferences" : [
+    "frequency calculation vectors and rendered-audio analysis"
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Every calculated and digitally rendered fundamental differs from its request by no more than ±0.1 cent."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-025"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify internal calculations and rendered fundamentals remain within ±0.1 cent across the supported range.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-002"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Calculate and render boundary and representative frequencies through every shipped timbre at supported sample rates.",
+    "Measure rendered fundamentals independently and compute cent error."
+  ],
+  "title" : "Calculated and rendered pitch accuracy",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

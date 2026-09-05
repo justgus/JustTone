@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-DR-007"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-BR-003"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved data ownership and interchange requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "User-created profiles, tuning systems, preferences, and imported content shall be stored locally on the iPhone without requiring an account, server, or network connection.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Local Data Ownership",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

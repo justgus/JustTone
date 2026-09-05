@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-023"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Each screen retains an active-tone indication and a directly available working Stop control."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-059"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify active playback remains visibly identifiable and immediately stoppable on secondary screens.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-042"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Start a tone and navigate through each secondary screen."
+  ],
+  "title" : "Secondary-screen playback control",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-005"
+    }
+  ]
+}

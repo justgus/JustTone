@@ -1,0 +1,45 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Every in-range named pitch is accepted and calculated deterministically without aliasing or numeric failure."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-023"
+  },
+  "kind" : "unit",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify named pitches C0 through C9 across supported reference pitches and tuning systems.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-015"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Construct and render C0, C9, and representative intervening named pitches.",
+    "Repeat boundary calculations at minimum and maximum A4 references and with non-default tuning systems."
+  ],
+  "title" : "Named-pitch range and boundaries",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

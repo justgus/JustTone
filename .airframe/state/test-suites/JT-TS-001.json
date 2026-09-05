@@ -1,0 +1,123 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-001"
+    },
+    {
+      "rawValue" : "JT-AC-002"
+    },
+    {
+      "rawValue" : "JT-AC-003"
+    },
+    {
+      "rawValue" : "JT-AC-004"
+    },
+    {
+      "rawValue" : "JT-AC-005"
+    }
+  ],
+  "id" : {
+    "rawValue" : "JT-TS-001"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+    "Baseline candidate grouping; execution and verification await authorized implementation."
+  ],
+  "objective" : "Qualify all requirements assigned to EP-001.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-BR-002"
+    },
+    {
+      "rawValue" : "JT-BR-003"
+    },
+    {
+      "rawValue" : "JT-BR-004"
+    },
+    {
+      "rawValue" : "JT-NFR-023"
+    },
+    {
+      "rawValue" : "JT-NFR-024"
+    },
+    {
+      "rawValue" : "JT-FR-079"
+    },
+    {
+      "rawValue" : "JT-NFR-025"
+    },
+    {
+      "rawValue" : "JT-NFR-026"
+    },
+    {
+      "rawValue" : "JT-NFR-027"
+    },
+    {
+      "rawValue" : "JT-NFR-028"
+    },
+    {
+      "rawValue" : "JT-NFR-029"
+    },
+    {
+      "rawValue" : "JT-NFR-030"
+    },
+    {
+      "rawValue" : "JT-NFR-031"
+    },
+    {
+      "rawValue" : "JT-NFR-032"
+    }
+  ],
+  "status" : "ready",
+  "testIDs" : [
+    {
+      "rawValue" : "JT-TEST-002"
+    },
+    {
+      "rawValue" : "JT-TEST-003"
+    },
+    {
+      "rawValue" : "JT-TEST-117"
+    },
+    {
+      "rawValue" : "JT-TEST-118"
+    },
+    {
+      "rawValue" : "JT-TEST-119"
+    },
+    {
+      "rawValue" : "JT-TEST-120"
+    },
+    {
+      "rawValue" : "JT-TEST-123"
+    },
+    {
+      "rawValue" : "JT-TEST-124"
+    },
+    {
+      "rawValue" : "JT-TEST-125"
+    },
+    {
+      "rawValue" : "JT-TEST-126"
+    },
+    {
+      "rawValue" : "JT-TEST-127"
+    },
+    {
+      "rawValue" : "JT-TEST-128"
+    },
+    {
+      "rawValue" : "JT-TEST-129"
+    },
+    {
+      "rawValue" : "JT-TEST-130"
+    }
+  ],
+  "title" : "Foundation qualification"
+}

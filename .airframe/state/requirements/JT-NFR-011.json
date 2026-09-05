@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-NFR-011"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-041"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Motor-accessibility technologies and ordinary touch use require reachable, explicit controls.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Interactive controls shall use appropriately sized touch targets and shall remain usable with Voice Control and Switch Control. Gestures shall have visible, accessible alternatives.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Accessible Interaction Targets",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "mixed"
+}

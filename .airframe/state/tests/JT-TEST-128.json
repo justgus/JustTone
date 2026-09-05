@@ -1,0 +1,47 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Release evidence satisfies the approved platform and hardware scope requirement."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-128"
+  },
+  "kind" : "manual",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify beta-only APIs are isolated and final-SDK changes receive requirements and test review.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-030"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Inspect release configuration and exercise the applicable simulator and physical-device matrix."
+  ],
+  "title" : "Beta-API compatibility audit",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-001"
+    },
+    {
+      "rawValue" : "SP-001"
+    }
+  ]
+}

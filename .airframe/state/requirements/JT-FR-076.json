@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-076"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-075"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved timbre and version 1 scope requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "If an imported or synchronized profile references an unavailable timbre, JustTone shall remain silent, identify the unavailable preference, select a safe built-in fallback, and preserve the original timbre identifier for possible future restoration.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Missing Timbre Fallback",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

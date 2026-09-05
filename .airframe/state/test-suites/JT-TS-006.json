@@ -1,0 +1,183 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-026"
+    },
+    {
+      "rawValue" : "JT-AC-027"
+    },
+    {
+      "rawValue" : "JT-AC-028"
+    },
+    {
+      "rawValue" : "JT-AC-029"
+    },
+    {
+      "rawValue" : "JT-AC-030"
+    }
+  ],
+  "id" : {
+    "rawValue" : "JT-TS-006"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+    "Baseline candidate grouping; execution and verification await authorized implementation."
+  ],
+  "objective" : "Qualify all requirements assigned to EP-006.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-046"
+    },
+    {
+      "rawValue" : "JT-FR-047"
+    },
+    {
+      "rawValue" : "JT-FR-048"
+    },
+    {
+      "rawValue" : "JT-FR-049"
+    },
+    {
+      "rawValue" : "JT-FR-050"
+    },
+    {
+      "rawValue" : "JT-FR-051"
+    },
+    {
+      "rawValue" : "JT-FR-052"
+    },
+    {
+      "rawValue" : "JT-FR-053"
+    },
+    {
+      "rawValue" : "JT-FR-054"
+    },
+    {
+      "rawValue" : "JT-FR-055"
+    },
+    {
+      "rawValue" : "JT-FR-056"
+    },
+    {
+      "rawValue" : "JT-FR-057"
+    },
+    {
+      "rawValue" : "JT-DR-003"
+    },
+    {
+      "rawValue" : "JT-DR-004"
+    },
+    {
+      "rawValue" : "JT-FR-058"
+    },
+    {
+      "rawValue" : "JT-FR-059"
+    },
+    {
+      "rawValue" : "JT-FR-060"
+    },
+    {
+      "rawValue" : "JT-FR-061"
+    },
+    {
+      "rawValue" : "JT-NFR-013"
+    },
+    {
+      "rawValue" : "JT-NFR-014"
+    },
+    {
+      "rawValue" : "JT-NFR-015"
+    },
+    {
+      "rawValue" : "JT-FR-080"
+    },
+    {
+      "rawValue" : "JT-NFR-047"
+    },
+    {
+      "rawValue" : "JT-DR-010"
+    }
+  ],
+  "status" : "ready",
+  "testIDs" : [
+    {
+      "rawValue" : "JT-TEST-070"
+    },
+    {
+      "rawValue" : "JT-TEST-071"
+    },
+    {
+      "rawValue" : "JT-TEST-072"
+    },
+    {
+      "rawValue" : "JT-TEST-073"
+    },
+    {
+      "rawValue" : "JT-TEST-074"
+    },
+    {
+      "rawValue" : "JT-TEST-075"
+    },
+    {
+      "rawValue" : "JT-TEST-076"
+    },
+    {
+      "rawValue" : "JT-TEST-077"
+    },
+    {
+      "rawValue" : "JT-TEST-078"
+    },
+    {
+      "rawValue" : "JT-TEST-079"
+    },
+    {
+      "rawValue" : "JT-TEST-080"
+    },
+    {
+      "rawValue" : "JT-TEST-081"
+    },
+    {
+      "rawValue" : "JT-TEST-082"
+    },
+    {
+      "rawValue" : "JT-TEST-083"
+    },
+    {
+      "rawValue" : "JT-TEST-084"
+    },
+    {
+      "rawValue" : "JT-TEST-085"
+    },
+    {
+      "rawValue" : "JT-TEST-086"
+    },
+    {
+      "rawValue" : "JT-TEST-087"
+    },
+    {
+      "rawValue" : "JT-TEST-088"
+    },
+    {
+      "rawValue" : "JT-TEST-089"
+    },
+    {
+      "rawValue" : "JT-TEST-090"
+    },
+    {
+      "rawValue" : "JT-TEST-121"
+    },
+    {
+      "rawValue" : "JT-TEST-147"
+    },
+    {
+      "rawValue" : "JT-TEST-167"
+    }
+  ],
+  "title" : "Watch companion and synchronization"
+}

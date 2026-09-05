@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Each action moves exactly one ordered entry and preserves repeated pitches and group boundaries."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-056"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify previous and next controls traverse exact profile order, including repeats and groups.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-039"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Navigate both directions through a grouped profile containing repeated and nonascending pitches."
+  ],
+  "title" : "Ordered pitch navigation",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-005"
+    }
+  ]
+}

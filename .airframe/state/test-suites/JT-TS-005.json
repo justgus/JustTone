@@ -1,0 +1,219 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-021"
+    },
+    {
+      "rawValue" : "JT-AC-022"
+    },
+    {
+      "rawValue" : "JT-AC-023"
+    },
+    {
+      "rawValue" : "JT-AC-024"
+    },
+    {
+      "rawValue" : "JT-AC-025"
+    }
+  ],
+  "id" : {
+    "rawValue" : "JT-TS-005"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+    "Baseline candidate grouping; execution and verification await authorized implementation."
+  ],
+  "objective" : "Qualify all requirements assigned to EP-005.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-UR-001"
+    },
+    {
+      "rawValue" : "JT-FR-036"
+    },
+    {
+      "rawValue" : "JT-FR-037"
+    },
+    {
+      "rawValue" : "JT-FR-038"
+    },
+    {
+      "rawValue" : "JT-FR-039"
+    },
+    {
+      "rawValue" : "JT-FR-040"
+    },
+    {
+      "rawValue" : "JT-FR-041"
+    },
+    {
+      "rawValue" : "JT-FR-042"
+    },
+    {
+      "rawValue" : "JT-FR-043"
+    },
+    {
+      "rawValue" : "JT-FR-044"
+    },
+    {
+      "rawValue" : "JT-FR-045"
+    },
+    {
+      "rawValue" : "JT-FR-084"
+    },
+    {
+      "rawValue" : "JT-NFR-055"
+    },
+    {
+      "rawValue" : "JT-NFR-056"
+    },
+    {
+      "rawValue" : "JT-FR-091"
+    },
+    {
+      "rawValue" : "JT-FR-092"
+    },
+    {
+      "rawValue" : "JT-FR-093"
+    },
+    {
+      "rawValue" : "JT-FR-094"
+    },
+    {
+      "rawValue" : "JT-NFR-057"
+    },
+    {
+      "rawValue" : "JT-NFR-058"
+    },
+    {
+      "rawValue" : "JT-FR-095"
+    },
+    {
+      "rawValue" : "JT-FR-096"
+    },
+    {
+      "rawValue" : "JT-FR-097"
+    },
+    {
+      "rawValue" : "JT-FR-098"
+    },
+    {
+      "rawValue" : "JT-FR-099"
+    },
+    {
+      "rawValue" : "JT-FR-100"
+    },
+    {
+      "rawValue" : "JT-FR-101"
+    },
+    {
+      "rawValue" : "JT-FR-102"
+    },
+    {
+      "rawValue" : "JT-NFR-059"
+    },
+    {
+      "rawValue" : "JT-NFR-060"
+    }
+  ],
+  "status" : "ready",
+  "testIDs" : [
+    {
+      "rawValue" : "JT-TEST-004"
+    },
+    {
+      "rawValue" : "JT-TEST-053"
+    },
+    {
+      "rawValue" : "JT-TEST-054"
+    },
+    {
+      "rawValue" : "JT-TEST-055"
+    },
+    {
+      "rawValue" : "JT-TEST-056"
+    },
+    {
+      "rawValue" : "JT-TEST-057"
+    },
+    {
+      "rawValue" : "JT-TEST-058"
+    },
+    {
+      "rawValue" : "JT-TEST-059"
+    },
+    {
+      "rawValue" : "JT-TEST-060"
+    },
+    {
+      "rawValue" : "JT-TEST-061"
+    },
+    {
+      "rawValue" : "JT-TEST-062"
+    },
+    {
+      "rawValue" : "JT-TEST-152"
+    },
+    {
+      "rawValue" : "JT-TEST-192"
+    },
+    {
+      "rawValue" : "JT-TEST-193"
+    },
+    {
+      "rawValue" : "JT-TEST-194"
+    },
+    {
+      "rawValue" : "JT-TEST-195"
+    },
+    {
+      "rawValue" : "JT-TEST-196"
+    },
+    {
+      "rawValue" : "JT-TEST-197"
+    },
+    {
+      "rawValue" : "JT-TEST-198"
+    },
+    {
+      "rawValue" : "JT-TEST-199"
+    },
+    {
+      "rawValue" : "JT-TEST-200"
+    },
+    {
+      "rawValue" : "JT-TEST-201"
+    },
+    {
+      "rawValue" : "JT-TEST-202"
+    },
+    {
+      "rawValue" : "JT-TEST-203"
+    },
+    {
+      "rawValue" : "JT-TEST-204"
+    },
+    {
+      "rawValue" : "JT-TEST-205"
+    },
+    {
+      "rawValue" : "JT-TEST-206"
+    },
+    {
+      "rawValue" : "JT-TEST-207"
+    },
+    {
+      "rawValue" : "JT-TEST-208"
+    },
+    {
+      "rawValue" : "JT-TEST-209"
+    }
+  ],
+  "title" : "iPhone experience"
+}

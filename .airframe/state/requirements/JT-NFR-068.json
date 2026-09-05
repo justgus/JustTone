@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-NFR-068"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-NFR-062"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved App Store and release qualification requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Submission shall have no known crash, data-loss, privacy, security, unexpected-playback, pitch-accuracy, clipping, or accessibility-blocking defect; no open critical or high-severity defect; and every deferred lower-severity defect documented with impact and explicit release acceptance.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Release Defect Threshold",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "mixed"
+}

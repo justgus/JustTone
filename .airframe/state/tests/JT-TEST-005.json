@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Both profiles remain independently identifiable and retain their ordered pitch entries.",
+    "The data model does not require every profile to represent strings, courses, or a fixed pitch count."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-005"
+  },
+  "kind" : "acceptance",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify that a musician can maintain multiple general ordered-pitch tuning profiles.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-UR-002"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Create profiles representing at least two structurally different instruments or tunings.",
+    "Populate each profile with a different ordered set of labeled pitches, relaunch the app, and retrieve both profiles."
+  ],
+  "title" : "Multiple tuning profile management acceptance",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

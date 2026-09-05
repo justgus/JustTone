@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-006"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-004"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Many traditional tunings vary legitimately among instruments, ensembles, schools, and performers.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "JustTone shall support user-defined pitch-degree values for traditions whose tuning varies by instrument, ensemble, school, or performer, without presenting one implementation as a universal standard.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Variable Traditional Tunings",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "mixed"
+}

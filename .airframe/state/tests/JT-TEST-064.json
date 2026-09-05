@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-025"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Content reflows or scrolls and all essential information and controls remain legible and reachable."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-064"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify Dynamic Type through all accessibility sizes without ambiguous truncation, overlap, or unreachable controls.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-007"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise every screen at each supported content-size category."
+  ],
+  "title" : "Accessibility text-size layout",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-007"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-NFR-046"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-NFR-005"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved performance and reliability requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Automatic persistence shall not block primary-screen interaction or real-time audio rendering. Rapid consecutive edits shall settle to the latest complete valid state without losing an acknowledged edit.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Persistence Responsiveness",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

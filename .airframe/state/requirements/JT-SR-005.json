@@ -1,0 +1,45 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-SR-005"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-026"
+    },
+    {
+      "rawValue" : "JT-SR-003"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "iOS cannot reliably distinguish deliberate Siri from false activation, so resumption must remain explicit and easy.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "After an exclusive interruption ends, JustTone shall not resume audible output automatically; when the system permits resumption, JustTone shall provide a prominent one-action Resume control.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Post-Interruption Resumption",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

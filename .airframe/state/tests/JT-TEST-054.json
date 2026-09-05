@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Selection changes but the audio engine remains stopped until Play is activated."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-054"
+  },
+  "kind" : "regression",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify selecting pitches while stopped never starts audio.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-037"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "With playback stopped, select pitches using every available selection control."
+  ],
+  "title" : "Silent pitch selection",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-005"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-006"
+    },
+    {
+      "rawValue" : "JT-AC-007"
+    },
+    {
+      "rawValue" : "JT-AC-008"
+    },
+    {
+      "rawValue" : "JT-AC-009"
+    },
+    {
+      "rawValue" : "JT-AC-010"
+    }
+  ],
+  "goal" : "Deliver deterministic shared pitch, tuning, temperament, and transposition mathematics.",
+  "issueIDs" : [
+
+  ],
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "updatedAt" : "2026-09-05T21:06:19Z"
+  },
+  "notes" : [
+
+  ],
+  "outOfScope" : [
+
+  ],
+  "owner" : "",
+  "planningDocumentPaths" : [
+
+  ],
+  "rationale" : "",
+  "scope" : [
+
+  ],
+  "sprintIDs" : [
+
+  ],
+  "taskIDs" : [
+    {
+      "rawValue" : "T-0007"
+    }
+  ],
+  "workItem" : {
+    "id" : {
+      "rawValue" : "EP-002"
+    },
+    "kind" : "epic",
+    "status" : "backlog",
+    "title" : "Pitch, Tuning, and Temperament Engine"
+  }
+}

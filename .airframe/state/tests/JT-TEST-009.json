@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-007"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Every degree resolves deterministically to the expected frequency relative to its reference."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-009"
+  },
+  "kind" : "unit",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify arbitrary pitch-division systems defined by ratios or cents.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-004"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Construct systems with non-twelve division counts using ratios and cents."
+  ],
+  "title" : "General tuning-system calculation",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-002"
+    }
+  ]
+}

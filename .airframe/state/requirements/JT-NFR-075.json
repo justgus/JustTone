@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-NFR-075"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-057"
+    }
+  ],
+  "priority" : "medium",
+  "rationale" : "Approved App Store and release qualification requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Where App Store Connect supports or requires Watch imagery or description, the listing shall accurately show local Watch playback and disconnected operation without implying full profile authoring.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Watch Listing Representation",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "inspection"
+}

@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Both variants retain their pitch values and context and neither is presented as the universal definition."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-011"
+  },
+  "kind" : "acceptance",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify variable tunings can preserve user-supplied degrees without claiming universality.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-006"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Create two variants of one context-dependent traditional system and assign distinct contextual metadata."
+  ],
+  "title" : "Variable traditional-system acceptance",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-002"
+    }
+  ]
+}

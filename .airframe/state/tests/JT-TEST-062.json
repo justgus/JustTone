@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Accidental deletion is recoverable or preventable, and dependency impact is disclosed before referenced data is removed."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-062"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify destructive object deletion is confirmable or undoable and referenced-object impact is explained.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-045"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Attempt deletion of unreferenced and referenced custom profiles, tuning systems, and tunings, including cancellation or Undo."
+  ],
+  "title" : "Destructive-action recovery",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-005"
+    }
+  ]
+}

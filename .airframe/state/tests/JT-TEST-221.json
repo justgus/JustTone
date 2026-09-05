@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "The candidate and its release materials satisfy the approved requirement and preserve the human authorization gate."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-221"
+  },
+  "kind" : "manual",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify category and age-rating review against the approved release requirement.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-071"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Inspect the exact release candidate, App Store records, supporting services, and evidence as applicable."
+  ],
+  "title" : "Category and age-rating review",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-008"
+    }
+  ]
+}

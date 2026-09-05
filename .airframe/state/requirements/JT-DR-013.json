@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-DR-013"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-DR-001"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved data ownership and interchange requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Unsupported newer major versions shall be rejected without partial import; compatible newer minor versions may be accepted when unknown optional fields can be safely preserved or ignored; supported older versions shall migrate deterministically; and preview shall disclose ignored or migrated information.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Schema Version Compatibility",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

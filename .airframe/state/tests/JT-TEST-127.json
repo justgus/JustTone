@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-005"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Release evidence satisfies the approved platform and hardware scope requirement."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-127"
+  },
+  "kind" : "acceptance",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify a complete passing archive and release suite using final supported Xcode and SDKs.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-029"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Inspect release configuration and exercise the applicable simulator and physical-device matrix."
+  ],
+  "title" : "Final-toolchain release suite",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-001"
+    }
+  ]
+}

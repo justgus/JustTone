@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-021"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-011"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Frequent transient notifications should not disrupt a tuning reference.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "While a tone is active, JustTone shall request uninterrupted performance audio and continue playback through transient system alerts and notifications wherever the operating system permits; alert presentation or suppression shall remain controlled by the operating system.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Transient System Alerts",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

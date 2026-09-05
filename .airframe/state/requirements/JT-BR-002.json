@@ -1,0 +1,40 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-BR-002"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+
+  ],
+  "priority" : "high",
+  "rationale" : "The product is intended to be available from both the musician's phone and wrist.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "JustTone shall support an iPhone application and an Apple Watch companion application.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Supported Applications",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "mixed"
+}

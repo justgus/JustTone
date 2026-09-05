@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-013"
+    }
+  ],
+  "artifactReferences" : [
+    "physical-device route matrix"
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Audio uses the system-selected route and JustTone does not change route or system volume."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-032"
+  },
+  "kind" : "acceptance",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify playback follows supported system-selected routes without changing route or volume.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-020"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Play through available speaker, wired, Bluetooth, AirPlay, and other supported routes."
+  ],
+  "title" : "Supported audio-route matrix",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

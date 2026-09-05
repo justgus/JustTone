@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-NFR-076"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-NFR-061"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved App Store and release qualification requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Review notes shall explain tone generation without microphone access, playback controls, background playback, Watch installation and independent playback, safe sample import, capability purposes, and absence of account or network requirements.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "App Review Instructions",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "inspection"
+}

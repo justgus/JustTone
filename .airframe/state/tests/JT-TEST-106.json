@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Measured and observed output satisfies the approved timbre requirement."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-106"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify profile timbre preference selection remains silent and does not alter device output level.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-075"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise every shipped timbre across representative and boundary pitches, states, devices, and routes as applicable."
+  ],
+  "title" : "Preferred profile timbre",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

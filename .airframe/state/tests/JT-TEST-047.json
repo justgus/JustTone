@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-009"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "The UI can present written pitch while generated audio uses the corresponding sounding pitch."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-047"
+  },
+  "kind" : "unit",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify transposing-instrument profiles retain both written and sounding pitch and playback uses sounding pitch.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-032"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Resolve representative transposing-instrument entries, including written C for a B-flat instrument."
+  ],
+  "title" : "Written and sounding pitch",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

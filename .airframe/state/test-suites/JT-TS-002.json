@@ -1,0 +1,81 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-006"
+    },
+    {
+      "rawValue" : "JT-AC-007"
+    },
+    {
+      "rawValue" : "JT-AC-008"
+    },
+    {
+      "rawValue" : "JT-AC-009"
+    },
+    {
+      "rawValue" : "JT-AC-010"
+    }
+  ],
+  "id" : {
+    "rawValue" : "JT-TS-002"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+    "Baseline candidate grouping; execution and verification await authorized implementation."
+  ],
+  "objective" : "Qualify all requirements assigned to EP-002.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-001"
+    },
+    {
+      "rawValue" : "JT-FR-002"
+    },
+    {
+      "rawValue" : "JT-FR-003"
+    },
+    {
+      "rawValue" : "JT-FR-004"
+    },
+    {
+      "rawValue" : "JT-FR-005"
+    },
+    {
+      "rawValue" : "JT-FR-006"
+    },
+    {
+      "rawValue" : "JT-FR-007"
+    }
+  ],
+  "status" : "ready",
+  "testIDs" : [
+    {
+      "rawValue" : "JT-TEST-006"
+    },
+    {
+      "rawValue" : "JT-TEST-007"
+    },
+    {
+      "rawValue" : "JT-TEST-008"
+    },
+    {
+      "rawValue" : "JT-TEST-009"
+    },
+    {
+      "rawValue" : "JT-TEST-010"
+    },
+    {
+      "rawValue" : "JT-TEST-011"
+    },
+    {
+      "rawValue" : "JT-TEST-012"
+    }
+  ],
+  "title" : "Pitch and tuning engine"
+}

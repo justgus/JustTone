@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+    "extended audio capture and envelope analysis"
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Output reaches a stable sustain and continues without retriggering or decay to silence until an explicit stop or system interruption."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-018"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify playback sustains without decay, timeout, or repeated attack until stopped or interrupted.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-011"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Start each timbre and capture output beyond its attack and across an extended observation interval."
+  ],
+  "title" : "Continuous sustained output",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

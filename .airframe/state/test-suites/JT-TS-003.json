@@ -1,0 +1,339 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-011"
+    },
+    {
+      "rawValue" : "JT-AC-012"
+    },
+    {
+      "rawValue" : "JT-AC-013"
+    },
+    {
+      "rawValue" : "JT-AC-014"
+    },
+    {
+      "rawValue" : "JT-AC-015"
+    }
+  ],
+  "id" : {
+    "rawValue" : "JT-TS-003"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+    "Baseline candidate grouping; execution and verification await authorized implementation."
+  ],
+  "objective" : "Qualify all requirements assigned to EP-003.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-BR-001"
+    },
+    {
+      "rawValue" : "JT-FR-011"
+    },
+    {
+      "rawValue" : "JT-FR-012"
+    },
+    {
+      "rawValue" : "JT-FR-013"
+    },
+    {
+      "rawValue" : "JT-FR-014"
+    },
+    {
+      "rawValue" : "JT-NFR-001"
+    },
+    {
+      "rawValue" : "JT-FR-015"
+    },
+    {
+      "rawValue" : "JT-FR-016"
+    },
+    {
+      "rawValue" : "JT-NFR-002"
+    },
+    {
+      "rawValue" : "JT-FR-017"
+    },
+    {
+      "rawValue" : "JT-FR-018"
+    },
+    {
+      "rawValue" : "JT-FR-019"
+    },
+    {
+      "rawValue" : "JT-NFR-003"
+    },
+    {
+      "rawValue" : "JT-FR-020"
+    },
+    {
+      "rawValue" : "JT-FR-022"
+    },
+    {
+      "rawValue" : "JT-FR-023"
+    },
+    {
+      "rawValue" : "JT-FR-024"
+    },
+    {
+      "rawValue" : "JT-FR-025"
+    },
+    {
+      "rawValue" : "JT-NFR-004"
+    },
+    {
+      "rawValue" : "JT-FR-021"
+    },
+    {
+      "rawValue" : "JT-FR-026"
+    },
+    {
+      "rawValue" : "JT-FR-071"
+    },
+    {
+      "rawValue" : "JT-FR-072"
+    },
+    {
+      "rawValue" : "JT-FR-073"
+    },
+    {
+      "rawValue" : "JT-FR-074"
+    },
+    {
+      "rawValue" : "JT-FR-075"
+    },
+    {
+      "rawValue" : "JT-FR-076"
+    },
+    {
+      "rawValue" : "JT-FR-077"
+    },
+    {
+      "rawValue" : "JT-FR-078"
+    },
+    {
+      "rawValue" : "JT-DR-006"
+    },
+    {
+      "rawValue" : "JT-NFR-017"
+    },
+    {
+      "rawValue" : "JT-NFR-018"
+    },
+    {
+      "rawValue" : "JT-NFR-019"
+    },
+    {
+      "rawValue" : "JT-NFR-020"
+    },
+    {
+      "rawValue" : "JT-NFR-021"
+    },
+    {
+      "rawValue" : "JT-NFR-022"
+    },
+    {
+      "rawValue" : "JT-FR-081"
+    },
+    {
+      "rawValue" : "JT-NFR-033"
+    },
+    {
+      "rawValue" : "JT-NFR-034"
+    },
+    {
+      "rawValue" : "JT-NFR-035"
+    },
+    {
+      "rawValue" : "JT-NFR-036"
+    },
+    {
+      "rawValue" : "JT-NFR-037"
+    },
+    {
+      "rawValue" : "JT-NFR-038"
+    },
+    {
+      "rawValue" : "JT-NFR-039"
+    },
+    {
+      "rawValue" : "JT-NFR-040"
+    },
+    {
+      "rawValue" : "JT-NFR-041"
+    },
+    {
+      "rawValue" : "JT-NFR-042"
+    },
+    {
+      "rawValue" : "JT-NFR-043"
+    },
+    {
+      "rawValue" : "JT-FR-082"
+    },
+    {
+      "rawValue" : "JT-FR-083"
+    }
+  ],
+  "status" : "ready",
+  "testIDs" : [
+    {
+      "rawValue" : "JT-TEST-001"
+    },
+    {
+      "rawValue" : "JT-TEST-018"
+    },
+    {
+      "rawValue" : "JT-TEST-019"
+    },
+    {
+      "rawValue" : "JT-TEST-020"
+    },
+    {
+      "rawValue" : "JT-TEST-021"
+    },
+    {
+      "rawValue" : "JT-TEST-022"
+    },
+    {
+      "rawValue" : "JT-TEST-023"
+    },
+    {
+      "rawValue" : "JT-TEST-024"
+    },
+    {
+      "rawValue" : "JT-TEST-025"
+    },
+    {
+      "rawValue" : "JT-TEST-026"
+    },
+    {
+      "rawValue" : "JT-TEST-027"
+    },
+    {
+      "rawValue" : "JT-TEST-028"
+    },
+    {
+      "rawValue" : "JT-TEST-030"
+    },
+    {
+      "rawValue" : "JT-TEST-032"
+    },
+    {
+      "rawValue" : "JT-TEST-034"
+    },
+    {
+      "rawValue" : "JT-TEST-035"
+    },
+    {
+      "rawValue" : "JT-TEST-036"
+    },
+    {
+      "rawValue" : "JT-TEST-037"
+    },
+    {
+      "rawValue" : "JT-TEST-038"
+    },
+    {
+      "rawValue" : "JT-TEST-039"
+    },
+    {
+      "rawValue" : "JT-TEST-040"
+    },
+    {
+      "rawValue" : "JT-TEST-102"
+    },
+    {
+      "rawValue" : "JT-TEST-103"
+    },
+    {
+      "rawValue" : "JT-TEST-104"
+    },
+    {
+      "rawValue" : "JT-TEST-105"
+    },
+    {
+      "rawValue" : "JT-TEST-106"
+    },
+    {
+      "rawValue" : "JT-TEST-107"
+    },
+    {
+      "rawValue" : "JT-TEST-108"
+    },
+    {
+      "rawValue" : "JT-TEST-109"
+    },
+    {
+      "rawValue" : "JT-TEST-110"
+    },
+    {
+      "rawValue" : "JT-TEST-111"
+    },
+    {
+      "rawValue" : "JT-TEST-112"
+    },
+    {
+      "rawValue" : "JT-TEST-113"
+    },
+    {
+      "rawValue" : "JT-TEST-114"
+    },
+    {
+      "rawValue" : "JT-TEST-115"
+    },
+    {
+      "rawValue" : "JT-TEST-116"
+    },
+    {
+      "rawValue" : "JT-TEST-122"
+    },
+    {
+      "rawValue" : "JT-TEST-131"
+    },
+    {
+      "rawValue" : "JT-TEST-132"
+    },
+    {
+      "rawValue" : "JT-TEST-133"
+    },
+    {
+      "rawValue" : "JT-TEST-134"
+    },
+    {
+      "rawValue" : "JT-TEST-135"
+    },
+    {
+      "rawValue" : "JT-TEST-136"
+    },
+    {
+      "rawValue" : "JT-TEST-137"
+    },
+    {
+      "rawValue" : "JT-TEST-138"
+    },
+    {
+      "rawValue" : "JT-TEST-139"
+    },
+    {
+      "rawValue" : "JT-TEST-140"
+    },
+    {
+      "rawValue" : "JT-TEST-141"
+    },
+    {
+      "rawValue" : "JT-TEST-142"
+    },
+    {
+      "rawValue" : "JT-TEST-143"
+    }
+  ],
+  "title" : "Audio synthesis and playback"
+}

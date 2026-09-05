@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-026"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-011"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "The app must yield when the operating system deactivates its audio session without losing the musician's setup.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "JustTone shall stop audible output cleanly when an accepted call, Siri, or another exclusive audio session causes its audio session to become inactive, while retaining the selected profile, pitch, timbre, and output level.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Exclusive Audio Interruptions",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

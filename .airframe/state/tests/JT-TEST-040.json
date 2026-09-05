@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+    "physical-device interruption matrix"
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Output stops cleanly and selected profile, pitch, timbre, and level remain unchanged."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-040"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify accepted calls, Siri, and exclusive sessions stop output while preserving the selected setup.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-026"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Interrupt active playback with an accepted call, Siri activation, and a representative exclusive audio session."
+  ],
+  "title" : "Exclusive audio-interruption state",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

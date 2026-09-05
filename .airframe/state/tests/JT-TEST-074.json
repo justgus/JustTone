@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Observed behavior matches the approved requirement without unexpected playback, data loss, or inaccessible state."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-074"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify timbre and level selection and prevent accidental Crown level changes during scrolling.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-050"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise the requirement across its normal, boundary, disconnected, and failure conditions as applicable."
+  ],
+  "title" : "Watch timbre and Crown level",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-006"
+    }
+  ]
+}

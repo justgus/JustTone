@@ -1,0 +1,47 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Every in-range tenth-hertz value is accepted and persisted; invalid values are rejected or normalized predictably.",
+    "Profile note identities and spellings remain unchanged while calculated frequencies follow the selected reference."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-008"
+  },
+  "kind" : "unit",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify A4 reference boundaries, resolution, persistence, and profile recalculation.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-003"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Set A4 to 350.0, representative historical values, 440.0, representative bagpipe values, and 500.0 Hz.",
+    "Attempt out-of-range and finer-than-0.1 Hz inputs.",
+    "Change A4 with stored profile pitches, relaunch, and recalculate their frequencies."
+  ],
+  "title" : "Reference-frequency range and recalculation",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-002"
+    }
+  ]
+}

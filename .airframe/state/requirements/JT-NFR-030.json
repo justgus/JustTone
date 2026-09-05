@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-NFR-030"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-NFR-029"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved platform and release scope requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Beta-only APIs shall be isolated and documented while Xcode-beta is in use. If a beta API changes or is removed in the final SDK, JustTone shall use the final supported behavior and the affected requirements and tests shall be reviewed before release.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Final SDK Compatibility",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "inspection"
+}

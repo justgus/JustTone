@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-SR-014"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-SR-001"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved data ownership and interchange requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "A single import shall be rejected without partial import if it exceeds 10 MB encoded size, 10,000 total objects, 2,000 profiles, 4,096 entries in one profile, 16 structural nesting levels, or 16 KB in an individual text field. The error shall identify the exceeded limit.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Import Resource Limits",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

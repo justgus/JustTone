@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "A4 is 440.0 Hz and every semitone follows the twelve-tone equal-temperament frequency relationship."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-006"
+  },
+  "kind" : "unit",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify the default pitch system is twelve-tone equal temperament at A4 = 440.0 Hz.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-001"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Calculate representative pitches above, below, and at A4 using untouched defaults."
+  ],
+  "title" : "Default pitch-system calculation",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-002"
+    }
+  ]
+}

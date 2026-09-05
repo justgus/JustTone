@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-SR-011"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-SR-006"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved hearing-safety requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Other than required signal ramps, normalization, clipping prevention, and operating-system behavior, JustTone shall not silently reduce output under the label of hearing safety. Safety interventions shall remain truthful and user-visible.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "No Automatic Safety Attenuation",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "inspection"
+}

@@ -1,0 +1,49 @@
+{
+  "acceptanceCriteria" : [
+    "Approved iPhone and Watch accessibility technologies can operate every applicable function.",
+    "No-surprise playback and hearing-safety rules hold across lifecycle, route, interruption, and failure events.",
+    "Failure injection and endurance tests demonstrate deterministic state and containment without data corruption.",
+    "Physical-device-only claims remain unverified until the user reviews the required evidence."
+  ],
+  "component" : "Cross-Cutting Qualification",
+  "componentsAffected" : [
+    "iPhone",
+    "Watch",
+    "Shared",
+    "Documentation"
+  ],
+  "epicID" : {
+    "rawValue" : "EP-007"
+  },
+  "evidenceIDs" : [
+
+  ],
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "updatedAt" : "2026-09-04T19:40:25Z"
+  },
+  "notes" : [
+
+  ],
+  "priority" : "high",
+  "rationale" : "Accessibility, hearing safety, and failure containment are release-critical cross-cutting behavior.",
+  "requirementIDs" : [
+
+  ],
+  "testSteps" : [
+    "Run automated accessibility, state-machine, safety, and fault-injection suites.",
+    "Collect but do not self-verify physical-device, VoiceOver, listening, and endurance evidence."
+  ],
+  "workItem" : {
+    "id" : {
+      "rawValue" : "T-0008"
+    },
+    "kind" : "task",
+    "status" : "backlog",
+    "title" : "Qualify accessibility, safety, and resilience"
+  }
+}

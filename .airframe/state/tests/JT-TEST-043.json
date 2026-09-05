@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Every valid representation resolves reproducibly and all optional metadata is retained."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-043"
+  },
+  "kind" : "unit",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify pitch entries support note-and-octave, exact frequency, scale degree, cent offset, optional label, and optional group membership.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-028"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Construct and resolve entries using each supported pitch representation and optional field."
+  ],
+  "title" : "Pitch-entry content",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

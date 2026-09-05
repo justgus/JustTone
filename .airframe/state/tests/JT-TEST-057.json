@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Playback stops in both cases, the new profile stays silent, and applicable tuning warnings can be reviewed before Play."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-057"
+  },
+  "kind" : "regression",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify changing profile stops active audio and requires explicit playback after any mismatch warning.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-040"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "While playing, select matching-context and mismatched-context profiles."
+  ],
+  "title" : "Active profile-change safety",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-005"
+    }
+  ]
+}

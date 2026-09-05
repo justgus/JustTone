@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Observed behavior matches the approved requirement without unexpected playback, data loss, or inaccessible state."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-083"
+  },
+  "kind" : "regression",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify incomplete, invalid, and interrupted transfers never displace the last valid Watch dataset.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-DR-004"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise the requirement across its normal, boundary, disconnected, and failure conditions as applicable."
+  ],
+  "title" : "Atomic Watch updates",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-006"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "The preview accurately describes proposed changes and no mutation occurs before confirmation.",
+    "Each selected conflict outcome produces only the disclosed result."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-014"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify imports disclose changes and honor every conflict choice before mutation.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-009"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Import documents containing new, identical, and conflicting objects.",
+    "Exercise cancel, replace, keep-both, and rename outcomes."
+  ],
+  "title" : "Import preview and conflict resolution",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

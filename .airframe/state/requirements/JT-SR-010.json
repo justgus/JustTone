@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-SR-010"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-084"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved hearing-safety requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "After 60 minutes of uninterrupted playback, and once per subsequent hour, JustTone shall provide a non-auditory, non-blocking reminder to check listening level and take a listening break. A Watch haptic may supplement it. The reminder shall not automatically stop, reduce, or interrupt the tone.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Extended-Playback Reminder",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

@@ -1,0 +1,56 @@
+{
+  "auditEventIDs" : [
+    {
+      "rawValue" : "AUD-AGILE-PLAN-1"
+    }
+  ],
+  "commands" : [
+    ".airframe\/scripts\/ac-status.sh",
+    "aicockpit state diagnostics --backend canonical",
+    "aicockpit tests validate"
+  ],
+  "decisionState" : "approved",
+  "evidenceIDs" : [
+
+  ],
+  "externalEffects" : [
+
+  ],
+  "fileChanges" : [
+    "Baseline review and implementation plan documentation; canonical Epic, criterion, suite, Task, and traceability records."
+  ],
+  "id" : {
+    "rawValue" : "PLAN-001"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+    "Approval authorizes the baseline and planning structure only. Sprint activation and implementation require separate explicit user authorization.",
+    "Plan is approved"
+  ],
+  "proposedByActorID" : {
+    "rawValue" : "ACTOR-LLM"
+  },
+  "scope" : [
+    "EP-001 through EP-008 in the dependency order documented in docs\/Implementation-Plan.md."
+  ],
+  "summary" : "Baseline 233 approved requirements, adopt ten testability clarifications, and deliver through eight proposed Epics without activating implementation.",
+  "targetEpicID" : {
+    "rawValue" : "EP-001"
+  },
+  "targetSprintID" : {
+    "rawValue" : "SP-001"
+  },
+  "targetTaskIDs" : [
+
+  ],
+  "title" : "JustTone 1.0 requirements baseline and Epic delivery plan",
+  "verificationCriteria" : [
+    "All requirements map one-to-one to tests; every Epic criterion has a linked test; eight suites collectively contain all 233 requirement\/test pairs."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Measured and observed output satisfies the approved timbre requirement."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-104"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify every instrument-inspired attack reaches a stable indefinite sustain.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-073"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise every shipped timbre across representative and boundary pitches, states, devices, and routes as applicable."
+  ],
+  "title" : "Instrument-inspired sustain",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

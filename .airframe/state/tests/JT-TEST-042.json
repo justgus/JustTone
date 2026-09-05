@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-016"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "All fields and pitch-entry order round-trip without loss or substitution."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-042"
+  },
+  "kind" : "dataValidation",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify each profile preserves its stable identity, display metadata, instrument metadata, tuning-system reference, ordered pitch entries, and optional notes, tags, icon, and color.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-027"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Create, save, reload, and inspect a profile containing every required and optional field."
+  ],
+  "title" : "Tuning profile content",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

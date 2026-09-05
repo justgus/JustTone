@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-039"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "The candidate and its release materials satisfy the approved requirement and preserve the human authorization gate."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-219"
+  },
+  "kind" : "manual",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify app store metadata accuracy against the approved release requirement.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-069"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Inspect the exact release candidate, App Store records, supporting services, and evidence as applicable."
+  ],
+  "title" : "App Store metadata accuracy",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-008"
+    }
+  ]
+}

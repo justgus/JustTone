@@ -1,0 +1,47 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-012"
+    }
+  ],
+  "artifactReferences" : [
+    "transition waveform analysis and listening review"
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Ramps remain within 5–15 ms and transitions contain no objectionable click or perceived musical fade."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-021"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify starts, stops, pitch changes, and timbre changes avoid clicks using perceptually immediate ramps.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-014"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Capture start, stop, pitch-change, and timbre-change boundaries at representative phases and amplitudes.",
+    "Measure each ramp duration and inspect signal discontinuity, then audition transitions on a physical device."
+  ],
+  "title" : "Transition continuity and listening",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

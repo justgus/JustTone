@@ -1,0 +1,51 @@
+{
+  "epicID" : {
+    "rawValue" : "EP-001"
+  },
+  "goal" : "Dates and activation await user approval.",
+  "issueIDs" : [
+
+  ],
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "updatedAt" : "2026-09-05T21:13:47Z"
+  },
+  "notes" : [
+    "Dates and activation await user approval."
+  ],
+  "taskIDs" : [
+    {
+      "rawValue" : "T-0001"
+    },
+    {
+      "rawValue" : "T-0009"
+    },
+    {
+      "rawValue" : "T-0010"
+    },
+    {
+      "rawValue" : "T-0011"
+    },
+    {
+      "rawValue" : "T-0012"
+    },
+    {
+      "rawValue" : "T-0013"
+    },
+    {
+      "rawValue" : "T-0014"
+    }
+  ],
+  "workItem" : {
+    "id" : {
+      "rawValue" : "SP-001"
+    },
+    "kind" : "sprint",
+    "status" : "active",
+    "title" : "Project Foundation"
+  }
+}

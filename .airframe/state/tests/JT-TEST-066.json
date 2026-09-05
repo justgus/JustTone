@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Text, controls, focus, selection, and playback state remain legible and distinguishable."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-066"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify legibility and state clarity across system appearance and contrast settings.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-009"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise key screens in Light and Dark Modes with Increased Contrast and Differentiate Without Color combinations."
+  ],
+  "title" : "Appearance and contrast matrix",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-007"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Measured and observed output satisfies the approved timbre requirement."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-108"
+  },
+  "kind" : "dataValidation",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify matching definitions produce matching intended digital signals on both platforms.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-077"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise every shipped timbre across representative and boundary pitches, states, devices, and routes as applicable."
+  ],
+  "title" : "Cross-device timbre consistency",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

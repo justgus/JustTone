@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "All selections and output level are restored while playback remains stopped."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-061"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify relaunch restores the prior working selection but never audible playback.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-044"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Choose a profile, pitch, timbre, and level, play a tone, terminate normally, and relaunch."
+  ],
+  "title" : "Silent working-state restoration",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-005"
+    }
+  ]
+}

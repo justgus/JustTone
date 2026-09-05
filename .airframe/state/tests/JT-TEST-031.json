@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-032"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Playback remains stopped until an explicit playback action."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-031"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify lifecycle and selection events never start or resume audio.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-SR-003"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise launch, foreground, unlock, selections, route connection, and interruption recovery."
+  ],
+  "title" : "Unexpected-playback prevention",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-007"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+    "round-trip comparison report"
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "The document is shareable and the restored objects preserve identity, metadata, order, and pitch definitions."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-015"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify user systems and profiles can be exported, shared, and imported without semantic loss.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-010"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Export representative custom systems and profiles through the platform sharing flow.",
+    "Import the exported document into a clean library and compare objects."
+  ],
+  "title" : "Export, sharing, and round-trip compatibility",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

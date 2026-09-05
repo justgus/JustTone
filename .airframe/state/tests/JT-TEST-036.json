@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Tone remains audible subject to route and system volume."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-036"
+  },
+  "kind" : "acceptance",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify explicitly started tones remain audible in Silent Mode.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-024"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Enable Silent Mode and explicitly start playback on a physical device."
+  ],
+  "title" : "Silent Mode playback",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

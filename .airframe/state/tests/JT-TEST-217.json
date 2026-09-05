@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-038"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "The candidate and its release materials satisfy the approved requirement and preserve the human authorization gate."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-217"
+  },
+  "kind" : "acceptance",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify physical testflight qualification against the approved release requirement.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-067"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Inspect the exact release candidate, App Store records, supporting services, and evidence as applicable."
+  ],
+  "title" : "Physical TestFlight qualification",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-008"
+    }
+  ]
+}

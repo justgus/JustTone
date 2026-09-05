@@ -1,0 +1,45 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Valid values play without requiring a Western note identity; invalid values are rejected or normalized predictably."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-024"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify unnotated frequencies from 16.0 through 12,000.0 Hz can be entered and played at 0.1 Hz resolution.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-016"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Enter and play both boundaries and representative tenth-hertz values.",
+    "Attempt out-of-range, non-finite, malformed, and over-precision values."
+  ],
+  "title" : "Direct-frequency entry and playback",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

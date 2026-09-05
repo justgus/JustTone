@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Every essential control is available and functional on the primary playback screen."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-058"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify all routine playback controls remain accessible on the primary screen.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-041"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Operate pitch selection, Play or Stop, previous and next, timbre, and output level without opening a secondary screen."
+  ],
+  "title" : "Essential primary controls",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-005"
+    }
+  ]
+}

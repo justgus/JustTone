@@ -1,0 +1,40 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-UR-001"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+
+  ],
+  "priority" : "high",
+  "rationale" : "Tone selection and explicit playback control form the primary user interaction.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "A musician shall be able to select a musical note and deliberately start or stop its reference tone.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Note Selection and Playback",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

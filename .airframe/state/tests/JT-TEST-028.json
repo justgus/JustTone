@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Signal gain follows the app control and system volume remains unchanged."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-028"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify app gain spans silence to maximum without changing system volume.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-019"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise the full app-level control while observing system volume."
+  ],
+  "title" : "Output-level independence",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

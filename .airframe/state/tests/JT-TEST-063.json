@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-031"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "All functions are operable and every spoken pitch and control state is precise and understandable."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-063"
+  },
+  "kind" : "manual",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify every function is operable with VoiceOver and pitch speech is musically unambiguous.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-006"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Navigate and operate every screen using VoiceOver, inspecting labels, values, states, actions, focus order, accidentals, and octaves."
+  ],
+  "title" : "VoiceOver operation audit",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-007"
+    }
+  ]
+}

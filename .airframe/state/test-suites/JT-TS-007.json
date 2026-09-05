@@ -1,0 +1,201 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-031"
+    },
+    {
+      "rawValue" : "JT-AC-032"
+    },
+    {
+      "rawValue" : "JT-AC-033"
+    },
+    {
+      "rawValue" : "JT-AC-034"
+    },
+    {
+      "rawValue" : "JT-AC-035"
+    }
+  ],
+  "id" : {
+    "rawValue" : "JT-TS-007"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+    "Baseline candidate grouping; execution and verification await authorized implementation."
+  ],
+  "objective" : "Qualify all requirements assigned to EP-007.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-SR-002"
+    },
+    {
+      "rawValue" : "JT-SR-003"
+    },
+    {
+      "rawValue" : "JT-SR-004"
+    },
+    {
+      "rawValue" : "JT-SR-005"
+    },
+    {
+      "rawValue" : "JT-NFR-006"
+    },
+    {
+      "rawValue" : "JT-NFR-007"
+    },
+    {
+      "rawValue" : "JT-NFR-008"
+    },
+    {
+      "rawValue" : "JT-NFR-009"
+    },
+    {
+      "rawValue" : "JT-NFR-010"
+    },
+    {
+      "rawValue" : "JT-NFR-011"
+    },
+    {
+      "rawValue" : "JT-NFR-012"
+    },
+    {
+      "rawValue" : "JT-NFR-044"
+    },
+    {
+      "rawValue" : "JT-NFR-045"
+    },
+    {
+      "rawValue" : "JT-NFR-046"
+    },
+    {
+      "rawValue" : "JT-SR-006"
+    },
+    {
+      "rawValue" : "JT-SR-007"
+    },
+    {
+      "rawValue" : "JT-SR-008"
+    },
+    {
+      "rawValue" : "JT-SR-009"
+    },
+    {
+      "rawValue" : "JT-SR-010"
+    },
+    {
+      "rawValue" : "JT-SR-011"
+    },
+    {
+      "rawValue" : "JT-SR-012"
+    },
+    {
+      "rawValue" : "JT-SR-013"
+    },
+    {
+      "rawValue" : "JT-NFR-048"
+    },
+    {
+      "rawValue" : "JT-FR-085"
+    },
+    {
+      "rawValue" : "JT-NFR-049"
+    },
+    {
+      "rawValue" : "JT-NFR-050"
+    },
+    {
+      "rawValue" : "JT-NFR-051"
+    }
+  ],
+  "status" : "ready",
+  "testIDs" : [
+    {
+      "rawValue" : "JT-TEST-029"
+    },
+    {
+      "rawValue" : "JT-TEST-031"
+    },
+    {
+      "rawValue" : "JT-TEST-033"
+    },
+    {
+      "rawValue" : "JT-TEST-041"
+    },
+    {
+      "rawValue" : "JT-TEST-063"
+    },
+    {
+      "rawValue" : "JT-TEST-064"
+    },
+    {
+      "rawValue" : "JT-TEST-065"
+    },
+    {
+      "rawValue" : "JT-TEST-066"
+    },
+    {
+      "rawValue" : "JT-TEST-067"
+    },
+    {
+      "rawValue" : "JT-TEST-068"
+    },
+    {
+      "rawValue" : "JT-TEST-069"
+    },
+    {
+      "rawValue" : "JT-TEST-144"
+    },
+    {
+      "rawValue" : "JT-TEST-145"
+    },
+    {
+      "rawValue" : "JT-TEST-146"
+    },
+    {
+      "rawValue" : "JT-TEST-148"
+    },
+    {
+      "rawValue" : "JT-TEST-149"
+    },
+    {
+      "rawValue" : "JT-TEST-150"
+    },
+    {
+      "rawValue" : "JT-TEST-151"
+    },
+    {
+      "rawValue" : "JT-TEST-153"
+    },
+    {
+      "rawValue" : "JT-TEST-154"
+    },
+    {
+      "rawValue" : "JT-TEST-155"
+    },
+    {
+      "rawValue" : "JT-TEST-156"
+    },
+    {
+      "rawValue" : "JT-TEST-157"
+    },
+    {
+      "rawValue" : "JT-TEST-158"
+    },
+    {
+      "rawValue" : "JT-TEST-159"
+    },
+    {
+      "rawValue" : "JT-TEST-160"
+    },
+    {
+      "rawValue" : "JT-TEST-161"
+    }
+  ],
+  "title" : "Accessibility safety and resilience"
+}

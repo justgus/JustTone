@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Completed changes survive relaunch and failures never replace the last valid store with partial or corrupt data."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-051"
+  },
+  "kind" : "regression",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify profile changes are saved promptly and interrupted or failed writes retain the last valid stored state.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-005"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Modify profiles, relaunch immediately, and inject interrupted and failed persistence operations."
+  ],
+  "title" : "Immediate durable profile persistence",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

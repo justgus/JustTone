@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-011"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-UR-001"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "A sustained reference avoids repeatedly retriggering naturally decaying instrument-like tones while tuning.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Once started, a reference tone shall continue without musical fade-out, decay to silence, automatic timeout, or repeated attack until the musician stops it or playback is interrupted by the operating system; an instrument-inspired attack may transition into a stable sustained tone.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Continuous Playback",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

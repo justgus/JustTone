@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Every state remains independently perceivable and unambiguous."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-065"
+  },
+  "kind" : "manual",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify operational states have textual or accessibility-semantic equivalents.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-008"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Review selection, playback, warning, error, and disabled states without relying on color, animation, position, or sound."
+  ],
+  "title" : "Nonvisual state communication audit",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-007"
+    }
+  ]
+}

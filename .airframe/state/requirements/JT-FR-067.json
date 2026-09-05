@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-067"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-006"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved built-in content requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Traditions that depend on a particular maker, instrument, ensemble, performer, or measured specimen may be supplied as editable templates. Such a template shall require or permit the musician to enter the applicable pitch values.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Editable Variable Templates",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

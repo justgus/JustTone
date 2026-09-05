@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-NFR-029"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-NFR-023"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved platform and release scope requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Development may use Xcode-beta and the beta iOS\/watchOS 27 SDKs. Before release authorization, the project shall be rebuilt and its complete release test suite rerun using Apple's final supported Xcode and SDK release.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Toolchain Transition Qualification",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "mixed"
+}

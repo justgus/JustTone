@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-SR-015"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-SR-001"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved data ownership and interchange requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Before import commitment, every required identifier reference shall resolve within the document, to a compatible installed built-in, or through an explicitly approved conflict resolution. Prohibited cycles shall be rejected.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Referential Integrity",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

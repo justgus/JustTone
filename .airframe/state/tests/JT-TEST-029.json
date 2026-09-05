@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "No setting or an invalid setting yields 25%; valid settings restore correctly."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-029"
+  },
+  "kind" : "unit",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify the 25% first-launch and invalid-value fallback behavior.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-SR-002"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Launch with no setting, valid saved settings, and malformed settings."
+  ],
+  "title" : "Startup-level validation",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-007"
+    }
+  ]
+}

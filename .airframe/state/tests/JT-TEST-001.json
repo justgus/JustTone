@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "The selected reference pitch is audible and agrees with the calibrated reference within the detailed frequency-accuracy requirement to be approved.",
+    "A musician can use the output as a practical tuning reference."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-001"
+  },
+  "kind" : "acceptance",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+    "Requires physical-device evidence; precise tolerance will be supplied by an audio requirement."
+  ],
+  "objective" : "Verify that JustTone produces an audible, musically usable reference pitch for tuning by ear.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-BR-001"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Select a known reference note and begin playback on a supported physical device.",
+    "Compare the output against a calibrated pitch reference and assess audibility in a normal tuning scenario."
+  ],
+  "title" : "Audible reference pitch acceptance",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

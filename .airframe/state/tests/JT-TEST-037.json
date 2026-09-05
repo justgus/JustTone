@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Both sources remain audible at their existing levels while JustTone plays."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-037"
+  },
+  "kind" : "acceptance",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify JustTone mixes without pausing, silencing, or ducking other app audio.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-025"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Play music and spoken audio from another app, then start and stop JustTone."
+  ],
+  "title" : "Mixed audio session",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

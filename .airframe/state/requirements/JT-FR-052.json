@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-052"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-046"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved Watch operating-model requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "A tone deliberately started on the Watch shall continue when the display dims or the musician lowers her wrist, subject to watchOS audio-session and interruption rules. Playback shall not require the display to remain fully active.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Wrist-Down and Display-Dimmed Playback",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

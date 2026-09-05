@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+    "route matrix and physical-device observation record"
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "The requested pitch remains selected and playable, and a non-blocking external-equipment notice appears when the route may reproduce it poorly."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-027"
+  },
+  "kind" : "acceptance",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify potentially poorly reproduced pitches remain playable with a non-blocking hardware-limitation notice.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-018"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Select extreme low and high pitches on representative built-in and external audio routes."
+  ],
+  "title" : "Extreme-range disclosure and playback",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

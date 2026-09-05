@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "The intended profile and entry can be identified and selected without identity collision."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-060"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify profiles and ordered pitches are browsable and duplicate names remain distinguishable.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-043"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Browse and select entries from a collection containing profiles with identical display names and differing metadata."
+  ],
+  "title" : "Profile and pitch browsing",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-005"
+    }
+  ]
+}

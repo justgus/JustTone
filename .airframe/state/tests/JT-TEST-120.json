@@ -1,0 +1,47 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Release evidence satisfies the approved platform and hardware scope requirement."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-120"
+  },
+  "kind" : "manual",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify iPhone targeting and exclusion of unsupported native and alternate-platform distribution.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-079"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Inspect release configuration and exercise the applicable simulator and physical-device matrix."
+  ],
+  "title" : "Supported-platform distribution",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-001"
+    },
+    {
+      "rawValue" : "SP-001"
+    }
+  ]
+}

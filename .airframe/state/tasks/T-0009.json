@@ -1,0 +1,50 @@
+{
+  "acceptanceCriteria" : [
+    "Local Git is initialized if needed with project-appropriate exclusions for generated output and credentials.",
+    "The JustTone GitHub repository uses the confirmed owner and visibility; origin points to it and a reviewed initial baseline is pushed."
+  ],
+  "component" : "Project Foundation",
+  "componentsAffected" : [
+    "Repository"
+  ],
+  "epicID" : {
+    "rawValue" : "EP-001"
+  },
+  "evidenceIDs" : [
+
+  ],
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "updatedAt" : "2026-09-05T21:53:36Z"
+  },
+  "notes" : [
+    "Planning only; SP-001 activation and implementation require explicit user authorization.",
+    "Prerequisites: none.",
+    "Epic acceptance criteria: user-requested repository setup; task-local criteria.",
+    "Requires explicit authorization for Git initialization, commits and the remote workflow, plus confirmed owner and visibility. Can proceed independently of app scaffolding; the baseline is the project content available at execution. This task implements the user-requested GitHub setup step."
+  ],
+  "priority" : "high",
+  "rationale" : "Create and connect the GitHub repository. Provides a bounded, separately reviewable foundation outcome.",
+  "requirementIDs" : [
+
+  ],
+  "sprintID" : {
+    "rawValue" : "SP-001"
+  },
+  "testSteps" : [
+    "Record repository URL and visibility, git remote -v, and matching local and remote baseline commit IDs.",
+    "Inspect the initial tracked-file list before committing and pushing."
+  ],
+  "workItem" : {
+    "id" : {
+      "rawValue" : "T-0009"
+    },
+    "kind" : "task",
+    "status" : "active",
+    "title" : "Create and connect the GitHub repository"
+  }
+}

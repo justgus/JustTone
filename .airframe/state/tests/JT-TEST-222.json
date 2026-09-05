@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "The candidate and its release materials satisfy the approved requirement and preserve the human authorization gate."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-222"
+  },
+  "kind" : "manual",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify privacy-policy availability and accuracy against the approved release requirement.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-072"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Inspect the exact release candidate, App Store records, supporting services, and evidence as applicable."
+  ],
+  "title" : "Privacy-policy availability and accuracy",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-008"
+    }
+  ]
+}

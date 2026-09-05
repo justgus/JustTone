@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-027"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-UR-002"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Profiles need durable identity, context, pitch rules, and ordered contents.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "A tuning profile shall have a stable identifier, display name, optional description, optional instrument and tradition metadata, tuning system, reference-pitch configuration, and ordered pitch entries.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Profile Contents",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

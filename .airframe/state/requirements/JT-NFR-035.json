@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-NFR-035"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-036"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved performance and reliability requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "A control activation shall produce visible or accessibility-semantic feedback within 100 ms, even when the resulting persistence, synchronization, or audio operation completes asynchronously.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Immediate Interaction Feedback",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

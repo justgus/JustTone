@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Each operation is persistent and each representation calculates or retains the expected pitches."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-012"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify complete custom-system lifecycle and calculations for every supported degree representation.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-007"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Create, edit, duplicate, rename, and delete systems using cents, ratios, equal divisions, and explicit frequencies."
+  ],
+  "title" : "Custom tuning-system authoring",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-002"
+    }
+  ]
+}

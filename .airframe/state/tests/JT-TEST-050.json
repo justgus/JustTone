@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Current data round-trips and older data migrates to the current schema with all meaningful fields preserved."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-050"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify locally persisted profiles carry schema versions and supported older fixtures migrate without data loss.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-DR-002"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Round-trip the current schema and load representative supported prior-schema fixtures."
+  ],
+  "title" : "Versioned profile persistence and migration",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

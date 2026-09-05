@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-SR-012"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-SR-004"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved hearing-safety requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "After any audio-route change, JustTone shall remain stopped. Before explicit restart on a recognized headphone route, any applicable high-level or extreme-pitch warning shall be presented.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Safe Route Restart",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

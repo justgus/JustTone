@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+    "physical-device lifecycle record"
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Tone continues until explicit stop, qualifying interruption, or OS termination."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-034"
+  },
+  "kind" : "acceptance",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify explicit playback persists through locking and backgrounding.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-022"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Start playback, lock the device, background the app, and observe extended output."
+  ],
+  "title" : "Lock and background playback",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

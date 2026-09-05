@@ -1,0 +1,49 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+    "offline test record and release configuration inspection checklist"
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Core workflows remain functional without connectivity.",
+    "No account, subscription, advertising, analytics, or undeclared network mechanism is present."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-003"
+  },
+  "kind" : "acceptance",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify that core JustTone use is offline and contains no account, subscription, advertising, analytics, or network dependency.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-BR-003"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Disable network connectivity and exercise first launch, tone playback, and local profile use.",
+    "Inspect targets, entitlements, privacy declarations, dependencies, and runtime network activity."
+  ],
+  "title" : "Independent and private operation acceptance",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-001"
+    },
+    {
+      "rawValue" : "SP-001"
+    }
+  ]
+}

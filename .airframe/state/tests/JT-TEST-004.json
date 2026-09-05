@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "No tone plays before an explicit start action.",
+    "The selected note plays after start and becomes silent after stop."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-004"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+    "Run the UI flow automatically where practical and retain physical-device audio confirmation."
+  ],
+  "objective" : "Verify that a musician can select a note and deliberately start and stop its reference tone.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-UR-001"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Launch JustTone with playback stopped.",
+    "Select a musical note, start playback, then stop playback."
+  ],
+  "title" : "Primary note playback flow acceptance",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-005"
+    }
+  ]
+}

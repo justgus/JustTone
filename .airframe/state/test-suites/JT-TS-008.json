@@ -1,0 +1,237 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-036"
+    },
+    {
+      "rawValue" : "JT-AC-037"
+    },
+    {
+      "rawValue" : "JT-AC-038"
+    },
+    {
+      "rawValue" : "JT-AC-039"
+    },
+    {
+      "rawValue" : "JT-AC-040"
+    }
+  ],
+  "id" : {
+    "rawValue" : "JT-TS-008"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+    "Baseline candidate grouping; execution and verification await authorized implementation."
+  ],
+  "objective" : "Qualify all requirements assigned to EP-008.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-016"
+    },
+    {
+      "rawValue" : "JT-SR-016"
+    },
+    {
+      "rawValue" : "JT-SR-017"
+    },
+    {
+      "rawValue" : "JT-SR-018"
+    },
+    {
+      "rawValue" : "JT-SR-019"
+    },
+    {
+      "rawValue" : "JT-SR-020"
+    },
+    {
+      "rawValue" : "JT-SR-021"
+    },
+    {
+      "rawValue" : "JT-SR-022"
+    },
+    {
+      "rawValue" : "JT-SR-023"
+    },
+    {
+      "rawValue" : "JT-BR-005"
+    },
+    {
+      "rawValue" : "JT-NFR-061"
+    },
+    {
+      "rawValue" : "JT-NFR-062"
+    },
+    {
+      "rawValue" : "JT-NFR-063"
+    },
+    {
+      "rawValue" : "JT-NFR-064"
+    },
+    {
+      "rawValue" : "JT-NFR-065"
+    },
+    {
+      "rawValue" : "JT-NFR-066"
+    },
+    {
+      "rawValue" : "JT-NFR-067"
+    },
+    {
+      "rawValue" : "JT-NFR-068"
+    },
+    {
+      "rawValue" : "JT-NFR-069"
+    },
+    {
+      "rawValue" : "JT-NFR-070"
+    },
+    {
+      "rawValue" : "JT-NFR-071"
+    },
+    {
+      "rawValue" : "JT-NFR-072"
+    },
+    {
+      "rawValue" : "JT-NFR-073"
+    },
+    {
+      "rawValue" : "JT-NFR-074"
+    },
+    {
+      "rawValue" : "JT-NFR-075"
+    },
+    {
+      "rawValue" : "JT-NFR-076"
+    },
+    {
+      "rawValue" : "JT-NFR-077"
+    },
+    {
+      "rawValue" : "JT-NFR-078"
+    },
+    {
+      "rawValue" : "JT-NFR-079"
+    },
+    {
+      "rawValue" : "JT-NFR-080"
+    },
+    {
+      "rawValue" : "JT-NFR-081"
+    },
+    {
+      "rawValue" : "JT-NFR-082"
+    },
+    {
+      "rawValue" : "JT-NFR-083"
+    }
+  ],
+  "status" : "ready",
+  "testIDs" : [
+    {
+      "rawValue" : "JT-TEST-101"
+    },
+    {
+      "rawValue" : "JT-TEST-182"
+    },
+    {
+      "rawValue" : "JT-TEST-183"
+    },
+    {
+      "rawValue" : "JT-TEST-184"
+    },
+    {
+      "rawValue" : "JT-TEST-185"
+    },
+    {
+      "rawValue" : "JT-TEST-186"
+    },
+    {
+      "rawValue" : "JT-TEST-187"
+    },
+    {
+      "rawValue" : "JT-TEST-188"
+    },
+    {
+      "rawValue" : "JT-TEST-189"
+    },
+    {
+      "rawValue" : "JT-TEST-210"
+    },
+    {
+      "rawValue" : "JT-TEST-211"
+    },
+    {
+      "rawValue" : "JT-TEST-212"
+    },
+    {
+      "rawValue" : "JT-TEST-213"
+    },
+    {
+      "rawValue" : "JT-TEST-214"
+    },
+    {
+      "rawValue" : "JT-TEST-215"
+    },
+    {
+      "rawValue" : "JT-TEST-216"
+    },
+    {
+      "rawValue" : "JT-TEST-217"
+    },
+    {
+      "rawValue" : "JT-TEST-218"
+    },
+    {
+      "rawValue" : "JT-TEST-219"
+    },
+    {
+      "rawValue" : "JT-TEST-220"
+    },
+    {
+      "rawValue" : "JT-TEST-221"
+    },
+    {
+      "rawValue" : "JT-TEST-222"
+    },
+    {
+      "rawValue" : "JT-TEST-223"
+    },
+    {
+      "rawValue" : "JT-TEST-224"
+    },
+    {
+      "rawValue" : "JT-TEST-225"
+    },
+    {
+      "rawValue" : "JT-TEST-226"
+    },
+    {
+      "rawValue" : "JT-TEST-227"
+    },
+    {
+      "rawValue" : "JT-TEST-228"
+    },
+    {
+      "rawValue" : "JT-TEST-229"
+    },
+    {
+      "rawValue" : "JT-TEST-230"
+    },
+    {
+      "rawValue" : "JT-TEST-231"
+    },
+    {
+      "rawValue" : "JT-TEST-232"
+    },
+    {
+      "rawValue" : "JT-TEST-233"
+    }
+  ],
+  "title" : "Content and App Store release"
+}

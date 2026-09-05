@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+    "automated frequency-analysis results"
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Every measured fundamental meets the approved pitch-accuracy tolerance for the selected pitch."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-020"
+  },
+  "kind" : "unit",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify every timbre preserves the selected pitch as its accurate fundamental.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-013"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Render representative low, middle, and high pitches through every timbre and estimate each fundamental."
+  ],
+  "title" : "Per-timbre fundamental frequency",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-018"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-015"
+    },
+    {
+      "rawValue" : "JT-FR-016"
+    }
+  ],
+  "priority" : "medium",
+  "rationale" : "The app should preserve valid requests while honestly communicating device and route limitations.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "When a selected pitch may be poorly reproduced by the current device speaker or audio route, JustTone shall preserve the requested pitch and provide a non-blocking notice that external audio equipment may be required.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Extreme-Range Disclosure",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "mixed"
+}

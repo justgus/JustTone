@@ -1,0 +1,46 @@
+{
+  "acceptanceCriteria" : [
+    "The Watch generates reference audio locally and never acts as an implicit remote playback trigger.",
+    "The companion exposes the approved profile, pitch, timbre, level, route, playback, and resume flow.",
+    "Profile data transferred to Watch is versioned, atomic, and remains usable while the iPhone is unreachable.",
+    "Simulator logic tests and required physical-device Watch qualification remain clearly separated."
+  ],
+  "component" : "Watch App",
+  "componentsAffected" : [
+    "Watch",
+    "Shared"
+  ],
+  "epicID" : {
+    "rawValue" : "EP-006"
+  },
+  "evidenceIDs" : [
+
+  ],
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "updatedAt" : "2026-09-04T19:40:25Z"
+  },
+  "notes" : [
+    "Local independent Watch synthesis is fixed by JT-FR-046 and JT-FR-051; physical feasibility is a qualification concern, not an open architecture decision."
+  ],
+  "priority" : "medium",
+  "rationale" : "Watch platform constraints may materially change the intended companion interaction.",
+  "requirementIDs" : [
+
+  ],
+  "testSteps" : [
+    "Verify paired connectivity, stale data behavior, playback semantics, accessibility, and lifecycle transitions."
+  ],
+  "workItem" : {
+    "id" : {
+      "rawValue" : "T-0005"
+    },
+    "kind" : "task",
+    "status" : "backlog",
+    "title" : "Deliver the Apple Watch companion experience"
+  }
+}

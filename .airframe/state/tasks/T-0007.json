@@ -1,0 +1,47 @@
+{
+  "acceptanceCriteria" : [
+    "Shared pitch identity and frequency calculations cover named pitches, direct frequencies, reference adjustment, and transposition.",
+    "Equal divisions, ratios, cents, and explicit-frequency tuning models resolve deterministically within approved bounds.",
+    "Pitch and tuning calculations meet the ±0.1-cent accuracy requirement with boundary tests.",
+    "The shared domain is usable unchanged by iPhone and Watch targets."
+  ],
+  "component" : "Shared Domain",
+  "componentsAffected" : [
+    "Shared",
+    "Tests"
+  ],
+  "epicID" : {
+    "rawValue" : "EP-002"
+  },
+  "evidenceIDs" : [
+
+  ],
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "updatedAt" : "2026-09-04T19:40:25Z"
+  },
+  "notes" : [
+
+  ],
+  "priority" : "high",
+  "rationale" : "All playback and profile behavior depends on deterministic shared musical mathematics.",
+  "requirementIDs" : [
+
+  ],
+  "testSteps" : [
+    "Run calculation, boundary, enharmonic, transposition, and tuning-model unit tests.",
+    "Verify identical shared-domain behavior from iPhone and Watch test hosts."
+  ],
+  "workItem" : {
+    "id" : {
+      "rawValue" : "T-0007"
+    },
+    "kind" : "task",
+    "status" : "backlog",
+    "title" : "Implement pitch, tuning, and temperament domain engine"
+  }
+}

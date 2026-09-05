@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-SR-017"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-BR-003"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved privacy, localization, help, and error requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "JustTone shall contain no advertising, tracking, behavioral analytics, fingerprinting, or third-party telemetry SDK. Apple-provided aggregate diagnostics independently shared with Apple are outside the app's collection behavior.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "No User Tracking or Analytics",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "inspection"
+}

@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "The saved profile is not silently reinterpreted and a clear mismatch warning appears before playback."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-048"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify a profile retains its own tuning-system and reference-pitch context and warns before playback when that context differs from the current selection.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-033"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Save a profile, change the current tuning system or reference pitch, then select the profile for playback."
+  ],
+  "title" : "Profile tuning-reference retention and mismatch warning",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

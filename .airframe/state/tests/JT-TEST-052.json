@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Same-name objects coexist without collision and the user can distinguish and operate on the intended object."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-052"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify profiles, tuning systems, and tunings may share display names while remaining distinct through stable identity and contextual presentation.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-035"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Create multiple same-name objects, edit and select each one, persist, and relaunch."
+  ],
+  "title" : "Duplicate display names",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

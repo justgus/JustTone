@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-002"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-BR-001"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Pitch identity must support accurate calculation while preserving notation meaningful to the musician.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "JustTone shall represent a musical pitch by note name, accidental, octave, and calculated frequency; enharmonic spellings shall share the appropriate sounding pitch while retaining the musician's preferred display spelling.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Musical Pitch Identity",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

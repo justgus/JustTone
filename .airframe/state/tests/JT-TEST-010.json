@@ -1,0 +1,46 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-008"
+    }
+  ],
+  "artifactReferences" : [
+    "curated tuning inventory and source review record"
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Each record names its tradition or system and applicable region and context without a generic non-Western substitution."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-010"
+  },
+  "kind" : "acceptance",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify built-in historical, traditional, and Asian systems are specifically identified and contextually documented.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-005"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Review every built-in non-default tuning record against its cited source and displayed metadata."
+  ],
+  "title" : "Built-in tuning identity and provenance review",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-002"
+    }
+  ]
+}

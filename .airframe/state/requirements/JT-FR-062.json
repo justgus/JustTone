@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-062"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-034"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved built-in content requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "JustTone shall ship a versioned catalog of built-in tuning systems, tuning profiles, and synthesis timbres. Every released catalog version shall have a reviewable manifest identifying its contents.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Versioned Built-In Catalog",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

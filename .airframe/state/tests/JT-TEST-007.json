@@ -1,0 +1,48 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-006"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Each pitch exposes note name, accidental, octave, and calculated frequency.",
+    "Enharmonic pairs sound at the same frequency while their selected spellings survive round-trip persistence."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-007"
+  },
+  "kind" : "unit",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify pitch identity, frequency calculation, octave handling, and retained enharmonic display spelling.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-002"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Construct natural, sharp, and flat pitch spellings across representative octaves.",
+    "Compare enharmonic pairs and serialize then restore their preferred spellings."
+  ],
+  "title" : "Pitch identity and enharmonic spelling",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-002"
+    }
+  ]
+}

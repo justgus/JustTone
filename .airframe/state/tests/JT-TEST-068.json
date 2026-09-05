@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Controls are appropriately sized and all functions remain accessible without requiring an unsupported gesture."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-068"
+  },
+  "kind" : "manual",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify touch targets, Voice Control, Switch Control, and alternatives to gestures.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-011"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Measure interactive targets and operate every function using Voice Control, Switch Control, and visible non-gesture alternatives."
+  ],
+  "title" : "Accessible interaction audit",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-007"
+    }
+  ]
+}

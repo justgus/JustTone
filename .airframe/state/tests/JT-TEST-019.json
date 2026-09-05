@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+    "timbre inventory, spectral captures, and listening review"
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Multiple distinct timbres are synthesized locally and at least one harmonically rich option is practical to tune against."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-019"
+  },
+  "kind" : "acceptance",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify multiple compact synthesized timbres provide distinct, useful harmonic character without recorded sample dependence.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-012"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Inspect synthesis definitions and audition every shipped timbre on supported physical devices in quiet and representative noisy conditions."
+  ],
+  "title" : "Synthesized timbre coverage and listening",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

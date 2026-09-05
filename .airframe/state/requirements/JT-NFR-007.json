@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-NFR-007"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-036"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Essential controls must remain readable and reachable for users requiring large text.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "The interface shall support Dynamic Type through the iOS accessibility sizes. Content may reflow or scroll, but essential information and controls shall not overlap, truncate ambiguously, or become unreachable.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Scalable and Reflowing Text",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

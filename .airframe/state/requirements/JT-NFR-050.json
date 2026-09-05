@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-NFR-050"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-NFR-025"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "Approved hearing-safety requirement.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Release qualification shall verify initial level, warning thresholds, acknowledgements, route changes, headphones, extreme pitches, extended playback, system safety interaction, and absence of unexpected level increases on physical devices.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Physical Safety Qualification",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "mixed"
+}

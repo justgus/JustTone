@@ -1,0 +1,62 @@
+{
+  "acceptanceCriteria" : [
+    "Product names, bundle identifiers, schemes and companion relationships consistently identify JustTone.",
+    "Debug and Release settings support the approved platforms and iPhone-only presentation.",
+    "A requirement-linked inventory records entitlements, background modes, document types and App Groups as configured, deferred or not applicable with rationale."
+  ],
+  "component" : "Project Foundation",
+  "componentsAffected" : [
+    "iPhone",
+    "Watch",
+    "Shared"
+  ],
+  "epicID" : {
+    "rawValue" : "EP-001"
+  },
+  "evidenceIDs" : [
+
+  ],
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "updatedAt" : "2026-09-05T21:28:40Z"
+  },
+  "notes" : [
+    "Planning only; SP-001 activation and implementation require explicit user authorization.",
+    "Prerequisites: T-0001, T-0010.",
+    "Epic acceptance criteria: JT-AC-002.",
+    "Do not enable unapproved background modes or mutate external provisioning. Document conflicts before consequential capability changes."
+  ],
+  "priority" : "high",
+  "rationale" : "Configure product identities and build capabilities. Provides a bounded, separately reviewable foundation outcome.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-028"
+    },
+    {
+      "rawValue" : "JT-FR-079"
+    },
+    {
+      "rawValue" : "JT-NFR-031"
+    }
+  ],
+  "sprintID" : {
+    "rawValue" : "SP-001"
+  },
+  "testSteps" : [
+    "Inspect build settings for both configurations and companion bundle relationships.",
+    "Search build and product files for accidental JustTune identifiers.",
+    "Review capability inventory against approved requirements; record App Store availability and archive validation as later release checks."
+  ],
+  "workItem" : {
+    "id" : {
+      "rawValue" : "T-0011"
+    },
+    "kind" : "task",
+    "status" : "implementedNotVerified",
+    "title" : "Configure product identities and build capabilities"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-NFR-002"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-BR-001"
+    },
+    {
+      "rawValue" : "JT-FR-013"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "A tuning reference requires deterministic, measurably accurate calculated and rendered fundamentals.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "Internally calculated and digitally rendered fundamental frequencies shall differ from their requested values by no more than ±0.1 cent across the supported range; physical transducer and audio-route performance shall be qualified separately.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Pitch Calculation Accuracy",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

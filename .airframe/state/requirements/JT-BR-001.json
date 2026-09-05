@@ -1,0 +1,40 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-BR-001"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+
+  ],
+  "priority" : "high",
+  "rationale" : "Producing a useful reference pitch is the central purpose of JustTone.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "JustTone shall provide musicians with an audible reference pitch for tuning an instrument by ear.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Audible Reference Pitch",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

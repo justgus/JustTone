@@ -1,0 +1,47 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-019"
+    }
+  ],
+  "artifactReferences" : [
+    "versioned import fixture corpus"
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "All objects and references are reconstructed without semantic loss and supported prior versions migrate predictably."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-013"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify supported versioned documents import models, systems, profiles, and combined object graphs.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-008"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Import valid documents containing each supported object type and compatible combinations.",
+    "Import supported prior-schema fixtures."
+  ],
+  "title" : "Declarative import compatibility",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-004"
+    }
+  ]
+}

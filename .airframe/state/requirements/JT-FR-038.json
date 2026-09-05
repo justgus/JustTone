@@ -1,0 +1,42 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-FR-038"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+    {
+      "rawValue" : "JT-FR-014"
+    }
+  ],
+  "priority" : "high",
+  "rationale" : "A musician should move through tuning references without repeatedly stopping and restarting sound.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "While playback is active, selecting another pitch entry in the current profile shall transition directly to that pitch using the click-free transition required by JT-FR-014. It shall not require Stop followed by Play.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Continuous Pitch Navigation",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

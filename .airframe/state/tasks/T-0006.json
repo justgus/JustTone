@@ -1,0 +1,47 @@
+{
+  "acceptanceCriteria" : [
+    "Automated tests cover deterministic core behavior and critical UI flows.",
+    "Device checks cover audio quality, interruptions, route changes, hearing-safe defaults, and Watch behavior.",
+    "App Store privacy, accessibility, icon, screenshots, metadata, and archive requirements are reviewed.",
+    "No accidental JustTune name, identifier, asset, or metadata remains."
+  ],
+  "component" : "Release",
+  "componentsAffected" : [
+    "iPhone",
+    "Watch",
+    "Documentation"
+  ],
+  "epicID" : {
+    "rawValue" : "EP-008"
+  },
+  "evidenceIDs" : [
+
+  ],
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "updatedAt" : "2026-09-04T19:40:25Z"
+  },
+  "notes" : [
+
+  ],
+  "priority" : "high",
+  "rationale" : "Audio and naming mistakes are user-impacting and App Store readiness requires device-level evidence.",
+  "requirementIDs" : [
+
+  ],
+  "testSteps" : [
+    "Run the complete test suite and archive validation with the current official Xcode before submission."
+  ],
+  "workItem" : {
+    "id" : {
+      "rawValue" : "T-0006"
+    },
+    "kind" : "task",
+    "status" : "backlog",
+    "title" : "Qualify and prepare JustTone 1.0 for the App Store"
+  }
+}

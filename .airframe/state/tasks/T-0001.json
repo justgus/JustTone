@@ -1,0 +1,63 @@
+{
+  "acceptanceCriteria" : [
+    "JustTone iPhone and Watch companion targets use Swift 6, iOS 27.0 and watchOS 27.0.",
+    "Both targets compile with Xcode-beta and open a minimal shell without starting playback."
+  ],
+  "component" : "Project Foundation",
+  "componentsAffected" : [
+    "iPhone",
+    "Watch",
+    "Shared"
+  ],
+  "epicID" : {
+    "rawValue" : "EP-001"
+  },
+  "evidenceIDs" : [
+
+  ],
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "updatedAt" : "2026-09-05T21:26:21Z"
+  },
+  "notes" : [
+    "Planning only; SP-001 activation and implementation require explicit user authorization.",
+    "Prerequisites: none.",
+    "Epic acceptance criteria: JT-AC-001.",
+    "App shell structure only; shared-domain structure belongs to T-0010."
+  ],
+  "priority" : "high",
+  "rationale" : "Create the iPhone and Watch app shells. Provides a bounded, separately reviewable foundation outcome.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-BR-002"
+    },
+    {
+      "rawValue" : "JT-BR-004"
+    },
+    {
+      "rawValue" : "JT-NFR-023"
+    },
+    {
+      "rawValue" : "JT-NFR-024"
+    }
+  ],
+  "sprintID" : {
+    "rawValue" : "SP-001"
+  },
+  "testSteps" : [
+    "Inspect target membership, language and deployment settings.",
+    "List schemes and destinations with Xcode-beta, then build both app targets for available simulators."
+  ],
+  "workItem" : {
+    "id" : {
+      "rawValue" : "T-0001"
+    },
+    "kind" : "task",
+    "status" : "implementedNotVerified",
+    "title" : "Create the iPhone and Watch app shells"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Ordinary display and entry show one decimal place, detailed presentation exposes additional calculated precision, and display formatting never changes the stored calculation."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-026"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify ordinary and detailed frequency presentation distinguish supported adjustments without losing internal precision.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-017"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Display and edit values spanning rounding boundaries and inspect the detailed view."
+  ],
+  "title" : "Frequency presentation and rounding",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

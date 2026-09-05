@@ -1,0 +1,61 @@
+{
+  "acceptanceCriteria" : [
+    "Both app components include privacy manifests reflecting actual foundation behavior.",
+    "The runtime dependency inventory contains only Apple frameworks and project-owned code.",
+    "The shell introduces no account, analytics, microphone access or runtime network requirement."
+  ],
+  "component" : "Project Foundation",
+  "componentsAffected" : [
+    "iPhone",
+    "Watch",
+    "Shared"
+  ],
+  "epicID" : {
+    "rawValue" : "EP-001"
+  },
+  "evidenceIDs" : [
+
+  ],
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "updatedAt" : "2026-09-05T21:28:52Z"
+  },
+  "notes" : [
+    "Planning only; SP-001 activation and implementation require explicit user authorization.",
+    "Prerequisites: T-0001, T-0010.",
+    "Epic acceptance criteria: JT-AC-004.",
+    "Declare actual usage only; final App Store privacy answers and release audit remain in EP-008."
+  ],
+  "priority" : "high",
+  "rationale" : "Establish privacy manifests and dependency inventory. Provides a bounded, separately reviewable foundation outcome.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-SR-020"
+    },
+    {
+      "rawValue" : "JT-SR-023"
+    },
+    {
+      "rawValue" : "JT-BR-003"
+    }
+  ],
+  "sprintID" : {
+    "rawValue" : "SP-001"
+  },
+  "testSteps" : [
+    "Inspect bundled privacy manifests and compare declarations with APIs and data use present in the shells.",
+    "Review linked frameworks, package dependencies and permission declarations."
+  ],
+  "workItem" : {
+    "id" : {
+      "rawValue" : "T-0013"
+    },
+    "kind" : "task",
+    "status" : "implementedNotVerified",
+    "title" : "Establish privacy manifests and dependency inventory"
+  }
+}

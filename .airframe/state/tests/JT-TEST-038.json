@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Displayed and actual playback states agree after every transition."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-038"
+  },
+  "kind" : "integration",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify displayed playback state always matches actual output across failure and lifecycle events.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-004"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Exercise route, interruption, background, media-control, and engine-failure transitions."
+  ],
+  "title" : "Audio and UI state consistency",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-003"
+    }
+  ]
+}

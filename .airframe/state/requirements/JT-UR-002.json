@@ -1,0 +1,40 @@
+{
+  "derivedFromIDs" : [
+
+  ],
+  "deviationIDs" : [
+
+  ],
+  "id" : {
+    "rawValue" : "JT-UR-002"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "source" : "docs\/Requirements-Specification.md"
+  },
+  "parentIDs" : [
+
+  ],
+  "priority" : "high",
+  "rationale" : "A multi-instrument musician needs reusable pitch collections without rebuilding each tuning for every session.",
+  "releaseScope" : [
+    "JustTone 1.0"
+  ],
+  "sourceKind" : "manual",
+  "sourceURI" : "docs\/Requirements-Specification.md",
+  "statement" : "A musician shall be able to maintain multiple tuning profiles for different instruments and tunings.",
+  "status" : "draft",
+  "supersedesIDs" : [
+
+  ],
+  "title" : "Multiple Tuning Profiles",
+  "traceLinks" : [
+
+  ],
+  "validationRequired" : true,
+  "verificationMethod" : "test"
+}

@@ -1,0 +1,44 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Essential information and controls remain usable without overlap, ambiguous truncation, or loss of reachability."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-069"
+  },
+  "kind" : "ui",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+
+  ],
+  "objective" : "Verify primary iPhone functions across supported sizes, orientations, and accessibility text sizes.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-NFR-012"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Run the primary workflow in portrait and landscape on the smallest and largest supported iPhone layouts at standard and accessibility text sizes."
+  ],
+  "title" : "Orientation and screen-size matrix",
+  "workItemIDs" : [
+    {
+      "rawValue" : "EP-007"
+    }
+  ]
+}

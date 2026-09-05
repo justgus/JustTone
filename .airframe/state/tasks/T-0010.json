@@ -1,0 +1,55 @@
+{
+  "acceptanceCriteria" : [
+    "A platform-neutral shared-domain module is imported by both app targets and a unit-test target.",
+    "The dependency structure documents separate responsibilities for domain logic, persistence, synchronization, UI state and real-time audio.",
+    "The architecture specifies that the audio render path cannot allocate, block, perform file I\/O or mutate UI-observed state."
+  ],
+  "component" : "Project Foundation",
+  "componentsAffected" : [
+    "iPhone",
+    "Watch",
+    "Shared"
+  ],
+  "epicID" : {
+    "rawValue" : "EP-001"
+  },
+  "evidenceIDs" : [
+
+  ],
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "updatedAt" : "2026-09-05T21:27:55Z"
+  },
+  "notes" : [
+    "Planning only; SP-001 activation and implementation require explicit user authorization.",
+    "Prerequisites: T-0001.",
+    "Epic acceptance criteria: JT-AC-001, JT-AC-003.",
+    "Create foundation structure and document boundaries only; pitch models, persistence, synchronization and audio implementation remain in later Epics."
+  ],
+  "priority" : "high",
+  "rationale" : "Establish the shared module and architecture boundaries. Provides a bounded, separately reviewable foundation outcome.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-BR-002"
+    }
+  ],
+  "sprintID" : {
+    "rawValue" : "SP-001"
+  },
+  "testSteps" : [
+    "Compile shared-module imports in both apps and execute the shared test target.",
+    "Inspect the dependency graph for platform\/UI coupling in the domain module."
+  ],
+  "workItem" : {
+    "id" : {
+      "rawValue" : "T-0010"
+    },
+    "kind" : "task",
+    "status" : "implementedNotVerified",
+    "title" : "Establish the shared module and architecture boundaries"
+  }
+}
