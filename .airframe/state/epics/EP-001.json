@@ -16,6 +16,7 @@
       "rawValue" : "JT-AC-005"
     }
   ],
+  "closeDate" : "2026-09-06",
   "goal" : "Establish the correctly named Swift 6 iPhone, Watch, shared-domain, and test architecture.",
   "issueIDs" : [
 
@@ -26,7 +27,7 @@
       "minor" : 0,
       "patch" : 0
     },
-    "updatedAt" : "2026-09-05T21:57:56Z"
+    "updatedAt" : "2026-09-06T20:58:17Z"
   },
   "notes" : [
     "Initial scope is defined in docs\/Product-Brief.md.",
@@ -84,7 +85,7 @@
       "rawValue" : "EP-001"
     },
     "kind" : "epic",
-    "status" : "active",
+    "status" : "closed",
     "title" : "Project Foundation and Platform Architecture"
   }
 }
