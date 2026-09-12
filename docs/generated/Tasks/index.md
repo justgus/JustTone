@@ -5,8 +5,8 @@ Currently: **15 total Tasks**
 | Status | Count |
 | ------ | ----- |
 | Backlog | 6 |
-| Active | 1 |
-| Implemented - Not Verified | 0 |
+| Active | 0 |
+| Implemented - Not Verified | 1 |
 | Implemented - Verified | 8 |
 | Closed | 0 |
 
@@ -26,4 +26,4 @@ Currently: **15 total Tasks**
 | T-0012 | TBD | Add localization resources to both app shells | Implemented - Verified |
 | T-0013 | TBD | Establish privacy manifests and dependency inventory | Implemented - Verified |
 | T-0014 | TBD | Qualify the integrated foundation and record release gates | Implemented - Verified |
-| T-0015 | TBD | Implement generalized tuning and qualify the integrated domain engine | Active |
+| T-0015 | TBD | Implement generalized tuning and qualify the integrated domain engine | Implemented - Not Verified |

@@ -20,13 +20,13 @@ Deliver deterministic shared pitch, tuning, temperament, and transposition mathe
 | Sprint | Goal | Status |
 | ------ | ---- | ------ |
 | SP-002 | Deliver tested pitch identity, reference, direct-frequency and transposition primitives. | Closed |
-| SP-003 | Deliver generalized tuning definitions and qualify the integrated shared domain engine. | Planning |
+| SP-003 | Deliver generalized tuning definitions and qualify the integrated shared domain engine. | Closed |
 
 ### Related Tasks
 
 | Task | Title | Status |
 | ---- | ----- | ------ |
-| T-0015 | Implement generalized tuning and qualify the integrated domain engine | Backlog |
+| T-0015 | Implement generalized tuning and qualify the integrated domain engine | Implemented - Verified |
 | T-0007 | Implement pitch identity, reference, and transposition | Implemented - Verified |
 
 ### Related Issues

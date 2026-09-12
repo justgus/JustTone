@@ -15,4 +15,15 @@ struct JustToneTests {
             #expect(try a4.frequency(using: reference) == reference.hertz)
         }
     }
+
+    @Test func sharedTuningFixturesRunInTheIPhoneHost() throws {
+        let values = try TuningDomainFixtures.qualificationSystem().resolvedFrequencies()
+        #expect(values == TuningDomainFixtures.expectedDefaultFrequencies)
+
+        let adjustedValues = try TuningDomainFixtures.qualificationSystem().resolvedFrequencies(
+            using: ReferencePitch(hertz: 442)
+        )
+        #expect(adjustedValues[3] == 432)
+        #expect(adjustedValues[1] == 663)
+    }
 }

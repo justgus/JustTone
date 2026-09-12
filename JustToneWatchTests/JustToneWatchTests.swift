@@ -21,4 +21,15 @@ struct JustToneWatchTests {
         #expect(sounding.written == written)
         #expect(try sounding.soundingFrequency() > 0)
     }
+
+    @Test func sharedTuningFixturesRunInTheWatchHost() throws {
+        let values = try TuningDomainFixtures.qualificationSystem().resolvedFrequencies()
+        #expect(values == TuningDomainFixtures.expectedDefaultFrequencies)
+
+        let adjustedValues = try TuningDomainFixtures.qualificationSystem().resolvedFrequencies(
+            using: ReferencePitch(hertz: 442)
+        )
+        #expect(adjustedValues[3] == 432)
+        #expect(adjustedValues[1] == 663)
+    }
 }
