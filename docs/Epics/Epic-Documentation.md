@@ -9,7 +9,7 @@ Currently: **8 Epics** | Next available: **EP-009**
 | Epic | Title | Status | Start Date | Close Date |
 | ---- | ----- | ------ | ---------- | ---------- |
 | EP-001 | Project Foundation and Platform Architecture | Closed | TBD | 2026-09-06 |
-| EP-002 | Pitch, Tuning, and Temperament Engine | Backlog | TBD | TBD |
+| EP-002 | Pitch, Tuning, and Temperament Engine | Active | TBD | TBD |
 | EP-003 | Audio Synthesis and Playback | Backlog | TBD | TBD |
 | EP-004 | Profiles, Catalog, Persistence, and Interchange | Backlog | TBD | TBD |
 | EP-005 | iPhone Experience | Backlog | TBD | TBD |
@@ -20,9 +20,9 @@ Currently: **8 Epics** | Next available: **EP-009**
 ## Statistics
 
 - **Total Epics:** 8
-- **Backlog:** 7
-- **Active:** 0
+- **Backlog:** 6
+- **Active:** 1
 - **Closed:** 1
 - **Next available:** EP-009
 
-*Last Updated: 2026-09-06*
+*Last Updated: 2026-09-12*

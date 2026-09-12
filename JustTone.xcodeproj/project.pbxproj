@@ -11,10 +11,18 @@
 		A10000000000000000000001 /* JustToneCore in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000011 /* JustToneCore */; };
 		A10000000000000000000002 /* JustToneCore in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000011 /* JustToneCore */; };
 		A10000000000000000000003 /* JustToneCore in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000011 /* JustToneCore */; };
+		A20000000000000000000001 /* JustToneCore in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000011 /* JustToneCore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		A10000000000000000000021 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8608CA662E80D46300AE4CF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86DEC8282ED88FF0007F8D9E;
+			remoteInfo = JustToneWatch;
+		};
+		A20000000000000000000002 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8608CA662E80D46300AE4CF9 /* Project object */;
 			proxyType = 1;
@@ -58,6 +66,7 @@
 		8608CA7D2E80D46500AE4CF9 /* JustToneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustToneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8608CA872E80D46500AE4CF9 /* JustToneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustToneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86DEC8292ED88FF0007F8D9E /* JustToneWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JustToneWatch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000003 /* JustToneWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustToneWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,6 +88,11 @@
 		86DEC82D2ED88FF0007F8D9E /* JustToneWatch */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "JustToneWatch";
+			sourceTree = "<group>";
+		};
+		A20000000000000000000004 /* JustToneWatchTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = JustToneWatchTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -115,6 +129,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A20000000000000000000005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20000000000000000000001 /* JustToneCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -125,6 +147,7 @@
 				8608CA802E80D46500AE4CF9 /* JustToneTests */,
 				8608CA8A2E80D46500AE4CF9 /* JustToneUITests */,
 				86DEC82D2ED88FF0007F8D9E /* JustToneWatch */,
+				A20000000000000000000004 /* JustToneWatchTests */,
 				8608CA6F2E80D46300AE4CF9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,6 +159,7 @@
 				8608CA7D2E80D46500AE4CF9 /* JustToneTests.xctest */,
 				8608CA872E80D46500AE4CF9 /* JustToneUITests.xctest */,
 				86DEC8292ED88FF0007F8D9E /* JustToneWatch.app */,
+				A20000000000000000000003 /* JustToneWatchTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -238,6 +262,30 @@
 			productReference = 86DEC8292ED88FF0007F8D9E /* JustToneWatch.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A20000000000000000000006 /* JustToneWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20000000000000000000007 /* Build configuration list for PBXNativeTarget "JustToneWatchTests" */;
+			buildPhases = (
+				A20000000000000000000008 /* Sources */,
+				A20000000000000000000005 /* Frameworks */,
+				A20000000000000000000009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A20000000000000000000010 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A20000000000000000000004 /* JustToneWatchTests */,
+			);
+			name = JustToneWatchTests;
+			packageProductDependencies = (
+				A10000000000000000000011 /* JustToneCore */,
+			);
+			productName = JustToneWatchTests;
+			productReference = A20000000000000000000003 /* JustToneWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -262,6 +310,10 @@
 					86DEC8282ED88FF0007F8D9E = {
 						CreatedOnToolsVersion = 27.0;
 					};
+					A20000000000000000000006 = {
+						CreatedOnToolsVersion = 27.0;
+						TestTargetID = 86DEC8282ED88FF0007F8D9E;
+					};
 				};
 			};
 			buildConfigurationList = 8608CA692E80D46300AE4CF9 /* Build configuration list for PBXProject "JustTone" */;
@@ -285,6 +337,7 @@
 				8608CA7C2E80D46500AE4CF9 /* JustToneTests */,
 				8608CA862E80D46500AE4CF9 /* JustToneUITests */,
 				86DEC8282ED88FF0007F8D9E /* JustToneWatch */,
+				A20000000000000000000006 /* JustToneWatchTests */,
 			);
 		};
 /* End PBXProject section */
@@ -312,6 +365,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		86DEC8272ED88FF0007F8D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20000000000000000000009 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -349,6 +409,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A20000000000000000000008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -356,6 +423,11 @@
 			isa = PBXTargetDependency;
 			target = 86DEC8282ED88FF0007F8D9E /* JustToneWatch */;
 			targetProxy = A10000000000000000000021 /* PBXContainerItemProxy */;
+		};
+		A20000000000000000000010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86DEC8282ED88FF0007F8D9E /* JustToneWatch */;
+			targetProxy = A20000000000000000000002 /* PBXContainerItemProxy */;
 		};
 		8608CA7F2E80D46500AE4CF9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -721,6 +793,52 @@
 			};
 			name = Release;
 		};
+		A20000000000000000000011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QEJ2Z74RY9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.caposoft.JustToneWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustToneWatch.app/JustToneWatch";
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Debug;
+		};
+		A20000000000000000000012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QEJ2Z74RY9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.caposoft.JustToneWatchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustToneWatch.app/JustToneWatch";
+				WATCHOS_DEPLOYMENT_TARGET = 27.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -765,6 +883,15 @@
 			buildConfigurations = (
 				86DEC8352ED88FF1007F8D9E /* Debug */,
 				86DEC8362ED88FF1007F8D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A20000000000000000000007 /* Build configuration list for PBXNativeTarget "JustToneWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20000000000000000000011 /* Debug */,
+				A20000000000000000000012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

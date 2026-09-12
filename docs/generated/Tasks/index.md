@@ -4,10 +4,10 @@ Currently: **15 total Tasks**
 
 | Status | Count |
 | ------ | ----- |
-| Backlog | 7 |
+| Backlog | 6 |
 | Active | 1 |
 | Implemented - Not Verified | 0 |
-| Implemented - Verified | 7 |
+| Implemented - Verified | 8 |
 | Closed | 0 |
 
 | Task | GitHub Issue | Title | Status |
@@ -18,7 +18,7 @@ Currently: **15 total Tasks**
 | T-0004 | TBD | Create the accessible iPhone experience | Backlog |
 | T-0005 | TBD | Deliver the Apple Watch companion experience | Backlog |
 | T-0006 | TBD | Qualify and prepare JustTone 1.0 for the App Store | Backlog |
-| T-0007 | TBD | Implement pitch identity, reference, and transposition | Active |
+| T-0007 | TBD | Implement pitch identity, reference, and transposition | Implemented - Verified |
 | T-0008 | TBD | Qualify accessibility, safety, and resilience | Backlog |
 | T-0009 | TBD | Create and connect the GitHub repository | Implemented - Verified |
 | T-0010 | TBD | Establish the shared module and architecture boundaries | Implemented - Verified |
@@ -26,4 +26,4 @@ Currently: **15 total Tasks**
 | T-0012 | TBD | Add localization resources to both app shells | Implemented - Verified |
 | T-0013 | TBD | Establish privacy manifests and dependency inventory | Implemented - Verified |
 | T-0014 | TBD | Qualify the integrated foundation and record release gates | Implemented - Verified |
-| T-0015 | TBD | Implement generalized tuning and qualify the integrated domain engine | Backlog |
+| T-0015 | TBD | Implement generalized tuning and qualify the integrated domain engine | Active |

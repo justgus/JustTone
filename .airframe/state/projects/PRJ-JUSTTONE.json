@@ -3,7 +3,7 @@
     "rawValue" : "EP-002"
   },
   "activeSprintID" : {
-    "rawValue" : "SP-002"
+    "rawValue" : "SP-003"
   },
   "backendMappingIDs" : [
 
@@ -46,7 +46,7 @@
       "minor" : 0,
       "patch" : 0
     },
-    "updatedAt" : "2026-09-11T21:39:28Z"
+    "updatedAt" : "2026-09-12T15:29:46Z"
   },
   "name" : "JustTone",
   "repository" : "justgus\/JustTone",

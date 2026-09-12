@@ -2,17 +2,9 @@
 
 Epics listed here are proposed and queued for future planning.
 
-Currently: **7 backlog Epics**
+Currently: **6 backlog Epics**
 
 ---
-
-## EP-002: Pitch, Tuning, and Temperament Engine
-
-**Status:** Backlog
-**Owner:** 
-
-**Goal:**
-Deliver deterministic shared pitch, tuning, temperament, and transposition mathematics.
 
 ## EP-003: Audio Synthesis and Playback
 
@@ -62,4 +54,4 @@ Qualify accessibility, hearing safety, deterministic state, and failure containm
 **Goal:**
 Qualify built-in content and the exact release candidate for App Store submission under user control.
 
-*Last Updated: 2026-09-06*
+*Last Updated: 2026-09-12*
