@@ -26,4 +26,19 @@ struct JustToneTests {
         #expect(adjustedValues[3] == 432)
         #expect(adjustedValues[1] == 663)
     }
+
+    @Test func sharedRendererFixtureRunsInTheIPhoneHost() throws {
+        var renderer = try MonophonicToneRenderer(
+            sampleRate: ToneRendererFixtures.sampleRate,
+            rampFrames: ToneRendererFixtures.rampFrames
+        )
+        var output = Array(repeating: Float.nan, count: 64)
+        output.withUnsafeMutableBufferPointer { renderer.render(into: $0) }
+        #expect(output.allSatisfy { $0 == 0 })
+
+        try renderer.start(frequency: ToneRendererFixtures.referenceFrequency)
+        output.withUnsafeMutableBufferPointer { renderer.render(into: $0) }
+        #expect(output.allSatisfy { $0.isFinite && abs($0) <= 1 })
+        #expect(output.contains { $0 != 0 })
+    }
 }

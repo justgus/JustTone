@@ -2,17 +2,9 @@
 
 Epics listed here are proposed and queued for future planning.
 
-Currently: **6 backlog Epics**
+Currently: **5 backlog Epics**
 
 ---
-
-## EP-003: Audio Synthesis and Playback
-
-**Status:** Backlog
-**Owner:** 
-
-**Goal:**
-Deliver accurate, continuous, click-free monophonic synthesis and robust audio-session behavior.
 
 ## EP-004: Profiles, Catalog, Persistence, and Interchange
 
