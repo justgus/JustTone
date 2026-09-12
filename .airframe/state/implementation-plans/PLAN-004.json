@@ -1,11 +1,13 @@
 {
   "auditEventIDs" : [
-
+    {
+      "rawValue" : "AUD-AGILE-PLAN-1"
+    }
   ],
   "commands" : [
     "DEVELOPER_DIR=\/Applications\/Xcode-beta.app\/Contents\/Developer swift test --package-path Packages\/JustToneCore; inspect destinations; run focused JustToneTests and JustToneWatchTests with Xcode-beta."
   ],
-  "decisionState" : "pending",
+  "decisionState" : "approved",
   "evidenceIDs" : [
 
   ],

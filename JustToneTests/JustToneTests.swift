@@ -41,4 +41,8 @@ struct JustToneTests {
         #expect(output.allSatisfy { $0.isFinite && abs($0) <= 1 })
         #expect(output.contains { $0 != 0 })
     }
+
+    @Test func sharedTimbreCatalogRunsInTheIPhoneHost() {
+        #expect(BuiltInTimbreCatalog.definitions.map(\.id) == BuiltInTimbre.allCases)
+    }
 }

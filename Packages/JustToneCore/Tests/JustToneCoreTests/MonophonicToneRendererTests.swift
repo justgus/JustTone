@@ -21,7 +21,7 @@ struct MonophonicToneRendererTests {
         output.withUnsafeMutableBufferPointer { renderer.render(into: $0) }
 
         for index in output.indices {
-            let expected = Float(sin(2 * Double.pi * 440 * Double(index) / ToneRendererFixtures.sampleRate))
+            let expected = Float(sin(2 * Double.pi * 440 * Double(index) / ToneRendererFixtures.sampleRate)) * TimbreDefinition.maximumPeak
             #expect(abs(output[index] - expected) < 0.000_01)
         }
     }
@@ -33,8 +33,8 @@ struct MonophonicToneRendererTests {
 
         output.withUnsafeMutableBufferPointer { renderer.render(into: $0) }
 
-        #expect(output.allSatisfy { abs($0) <= 1 })
-        #expect(output.contains { abs($0) > 0.99 })
+        #expect(output.allSatisfy { abs($0) <= TimbreDefinition.maximumPeak })
+        #expect(output.contains { abs($0) > 0.88 })
         #expect(throws: ToneRendererError.invalidLevel) { try ToneOutputLevel(1.01) }
     }
 
@@ -71,7 +71,7 @@ struct MonophonicToneRendererTests {
             let progress = Double(index + 1) / 32
             let frequency = 440 + 440 * progress
             let amplitude = 1 - 0.5 * progress
-            let expected = Float(sin(phase) * amplitude)
+            let expected = Float(sin(phase) * amplitude) * TimbreDefinition.maximumPeak
             #expect(abs(output[index] - expected) < 0.000_01)
             phase += 2 * Double.pi * frequency / ToneRendererFixtures.sampleRate
         }

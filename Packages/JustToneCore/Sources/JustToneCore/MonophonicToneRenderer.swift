@@ -46,6 +46,7 @@ public struct MonophonicToneRenderer: Sendable {
 
     public private(set) var selectedFrequency: DirectFrequency?
     public private(set) var selectedLevel: ToneOutputLevel
+    public private(set) var selectedTimbre: BuiltInTimbre = .sine
     public private(set) var playbackState: TonePlaybackState = .stopped
 
     private var phase: Double = 0
@@ -57,6 +58,9 @@ public struct MonophonicToneRenderer: Sendable {
     private var amplitudeIncrement: Float = 0
     private var amplitudeRampFramesRemaining = 0
     private var stopsWhenAmplitudeRampCompletes = false
+    private var renderedTimbre: BuiltInTimbre = .sine
+    private var outgoingTimbre: BuiltInTimbre = .sine
+    private var timbreRampFramesRemaining = 0
 
     public init(
         sampleRate: Double = 48_000,
@@ -124,6 +128,15 @@ public struct MonophonicToneRenderer: Sendable {
         scheduleAmplitudeRamp(to: level.value)
     }
 
+    /// Selects a catalog timbre without starting playback. Active changes crossfade at one fundamental.
+    public mutating func select(timbre: BuiltInTimbre) {
+        guard selectedTimbre != timbre else { return }
+        selectedTimbre = timbre
+        guard playbackState == .playing else { renderedTimbre = timbre; return }
+        outgoingTimbre = renderedTimbre
+        timbreRampFramesRemaining = rampFrames
+    }
+
     /// Stops playback after a finite ramp to silence.
     public mutating func stop() {
         guard playbackState == .playing else { return }
@@ -145,8 +158,16 @@ public struct MonophonicToneRenderer: Sendable {
             }
 
             advanceRamps()
-            let rawSample = Float(sin(phase)) * currentAmplitude
-            output[index] = min(max(rawSample, -1), 1)
+            let incoming = waveform(timbre: selectedTimbre)
+            let waveformSample: Float
+            if timbreRampFramesRemaining > 0 {
+                let mix = Float(rampFrames - timbreRampFramesRemaining + 1) / Float(rampFrames)
+                waveformSample = waveform(timbre: outgoingTimbre) * (1 - mix) + incoming * mix
+                timbreRampFramesRemaining -= 1
+                if timbreRampFramesRemaining == 0 { renderedTimbre = selectedTimbre }
+            } else { waveformSample = incoming }
+            let rawSample = waveformSample * currentAmplitude * TimbreDefinition.maximumPeak
+            output[index] = min(max(rawSample, -TimbreDefinition.maximumPeak), TimbreDefinition.maximumPeak)
             advancePhase()
 
             if stopsWhenAmplitudeRampCompletes,
@@ -198,6 +219,16 @@ public struct MonophonicToneRenderer: Sendable {
         if phase >= 2 * Double.pi {
             phase -= 2 * Double.pi
         }
+    }
+
+    private func waveform(timbre: BuiltInTimbre) -> Float {
+        let definition = BuiltInTimbreCatalog.definition(for: timbre)
+        var result: Float = 0
+        let nyquist = sampleRate / 2
+        for partial in definition.partials where Double(partial.harmonic) * currentFrequency < nyquist {
+            result += Float(sin(phase * Double(partial.harmonic))) * partial.amplitude
+        }
+        return result
     }
 }
 

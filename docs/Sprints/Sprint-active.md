@@ -4,25 +4,6 @@ Sprints listed here are currently in Planning or Active status and are the curre
 
 ---
 
-## SP-005: Timbre Qualification
-
-**Status:** Planning
-**Epic:** EP-003
-**Goal:** 
-**Start Date:** TBD
-**End Date:** TBD
-**Capacity:** TBD
-
-### Assigned Tasks
-
-| Task | Title | Priority | Status |
-| ---- | ----- | -------- | ------ |
-| T-0016 | Define approved timbres and qualify deterministic signal behavior | High | Backlog |
-
-### Assigned Issues
-
-None.
-
 ## SP-006: Session and Playback Lifecycle
 
 **Status:** Planning

@@ -20,7 +20,7 @@ Deliver accurate, continuous, click-free monophonic synthesis and robust audio-s
 | Sprint | Goal | Status |
 | ------ | ---- | ------ |
 | SP-004 |  | Closed |
-| SP-005 |  | Planning |
+| SP-005 |  | Closed |
 | SP-006 |  | Planning |
 
 ### Related Tasks
@@ -28,8 +28,8 @@ Deliver accurate, continuous, click-free monophonic synthesis and robust audio-s
 | Task | Title | Status |
 | ---- | ----- | ------ |
 | T-0002 | Implement monophonic render engine and deterministic signal qualification | Implemented - Verified |
-| T-0016 | Define approved timbres and qualify deterministic signal behavior | Backlog |
 | T-0017 | Integrate audio session, routes, interruptions, and playback lifecycle | Backlog |
+| T-0016 | Define approved timbres and qualify deterministic signal behavior | Implemented - Verified |
 
 ### Related Issues
 

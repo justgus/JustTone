@@ -47,4 +47,8 @@ struct JustToneWatchTests {
         #expect(output.allSatisfy { $0.isFinite && abs($0) <= 1 })
         #expect(output.contains { $0 != 0 })
     }
+
+    @Test func sharedTimbreCatalogRunsInTheWatchHost() {
+        #expect(BuiltInTimbreCatalog.definitions.map(\.id) == BuiltInTimbre.allCases)
+    }
 }
