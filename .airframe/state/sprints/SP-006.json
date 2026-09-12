@@ -1,0 +1,33 @@
+{
+  "epicID" : {
+    "rawValue" : "EP-003"
+  },
+  "goal" : "",
+  "issueIDs" : [
+
+  ],
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "updatedAt" : "2026-09-12T16:05:04Z"
+  },
+  "notes" : [
+
+  ],
+  "taskIDs" : [
+    {
+      "rawValue" : "T-0017"
+    }
+  ],
+  "workItem" : {
+    "id" : {
+      "rawValue" : "SP-006"
+    },
+    "kind" : "sprint",
+    "status" : "planning",
+    "title" : "Session and Playback Lifecycle"
+  }
+}

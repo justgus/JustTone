@@ -1,20 +1,21 @@
 {
   "acceptanceCriteria" : [
-    "The engine produces the requested equal-tempered frequency using configurable concert A.",
-    "Starting, stopping, and changing pitch are ramped to avoid clicks.",
-    "Playback never starts implicitly and responds predictably to interruption and route changes.",
-    "Frequency math and engine state behavior have focused automated tests."
+    "The engine accepts requested shared-domain frequencies and renders exactly one selected fundamental at a time without allocations, blocking, file I\/O, or UI-state mutation in the render callback.",
+    "Start, stop, pitch, and level changes use finite ramps or crossfades that prevent discontinuities; playback remains silent until explicit start.",
+    "Deterministic buffer tests qualify requested frequency, monophony, ramp continuity, amplitude bounds, clipping, and transition behavior."
   ],
   "component" : "Audio",
   "componentsAffected" : [
-    "Shared",
-    "iPhone"
+    "Shared audio engine",
+    "iPhone and Watch test hosts"
   ],
   "epicID" : {
     "rawValue" : "EP-003"
   },
   "evidenceIDs" : [
-
+    {
+      "rawValue" : "EV-0003"
+    }
   ],
   "metadata" : {
     "schemaVersion" : {
@@ -22,27 +23,28 @@
       "minor" : 0,
       "patch" : 0
     },
-    "updatedAt" : "2026-09-04T19:40:25Z"
+    "updatedAt" : "2026-09-12T16:14:22Z"
   },
   "notes" : [
-    "Begin with a sine waveform and conservative output level."
+    "No timbre inventory, profile persistence, synchronization, authoring UI, microphone behavior, or background-mode entitlement implementation."
   ],
   "priority" : "high",
   "rationale" : "Accurate, safe, click-free tone generation is the core product capability.",
   "requirementIDs" : [
 
   ],
+  "sprintID" : {
+    "rawValue" : "SP-004"
+  },
   "testSteps" : [
-    "Verify calculated frequencies against known note values.",
-    "Inspect generated buffers for continuity and bounded amplitude.",
-    "Perform physical-device listening checks before verification."
+    "Run beta-toolchain package and platform-host deterministic buffer tests; record actual commands and distinguish physical listening evidence."
   ],
   "workItem" : {
     "id" : {
       "rawValue" : "T-0002"
     },
     "kind" : "task",
-    "status" : "backlog",
-    "title" : "Implement the reference-tone audio engine"
+    "status" : "implementedNotVerified",
+    "title" : "Implement monophonic render engine and deterministic signal qualification"
   }
 }

@@ -1,0 +1,48 @@
+{
+  "acceptanceCriteria" : [
+    "Eight approved synthesized timbres use stable shared identifiers and platform-neutral parameter definitions without sampled resources.",
+    "Each timbre retains the requested fundamental through attack and sustain, with deterministic tests for accuracy, sustain, clipping, aliasing, level comparison, and transitions.",
+    "Route and physical listening requirements are recorded without claiming simulator qualification as listening evidence."
+  ],
+  "component" : "Shared audio timbre definitions",
+  "componentsAffected" : [
+    "Shared audio timbre definitions",
+    "iPhone and Watch test hosts"
+  ],
+  "epicID" : {
+    "rawValue" : "EP-003"
+  },
+  "evidenceIDs" : [
+
+  ],
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    },
+    "updatedAt" : "2026-09-12T16:05:04Z"
+  },
+  "notes" : [
+    "Depends on T-0002 implementation evidence; no catalog persistence, authoring UI, synchronization, or external services."
+  ],
+  "priority" : "high",
+  "rationale" : "Depends on T-0002 implementation evidence; no catalog persistence, authoring UI, synchronization, or external services.",
+  "requirementIDs" : [
+
+  ],
+  "sprintID" : {
+    "rawValue" : "SP-005"
+  },
+  "testSteps" : [
+    "Run deterministic package and platform-host tests for all approved timbres; record pending physical-device listening\/route evidence."
+  ],
+  "workItem" : {
+    "id" : {
+      "rawValue" : "T-0016"
+    },
+    "kind" : "task",
+    "status" : "backlog",
+    "title" : "Define approved timbres and qualify deterministic signal behavior"
+  }
+}

@@ -26,7 +26,7 @@
       "minor" : 0,
       "patch" : 0
     },
-    "updatedAt" : "2026-09-05T21:06:19Z"
+    "updatedAt" : "2026-09-12T16:08:30Z"
   },
   "notes" : [
 
@@ -43,11 +43,25 @@
 
   ],
   "sprintIDs" : [
-
+    {
+      "rawValue" : "SP-004"
+    },
+    {
+      "rawValue" : "SP-005"
+    },
+    {
+      "rawValue" : "SP-006"
+    }
   ],
   "taskIDs" : [
     {
       "rawValue" : "T-0002"
+    },
+    {
+      "rawValue" : "T-0016"
+    },
+    {
+      "rawValue" : "T-0017"
     }
   ],
   "workItem" : {
@@ -55,7 +69,7 @@
       "rawValue" : "EP-003"
     },
     "kind" : "epic",
-    "status" : "backlog",
+    "status" : "active",
     "title" : "Audio Synthesis and Playback"
   }
 }

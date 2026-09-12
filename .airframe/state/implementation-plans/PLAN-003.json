@@ -1,0 +1,64 @@
+{
+  "auditEventIDs" : [
+    {
+      "rawValue" : "AUD-AGILE-PLAN-13"
+    }
+  ],
+  "commands" : [
+
+  ],
+  "decisionState" : "approved",
+  "evidenceIDs" : [
+
+  ],
+  "externalEffects" : [
+
+  ],
+  "fileChanges" : [
+    "Planning documentation and canonical PLAN-003; refinement of T-0002 and creation of T-0016\/T-0017 with SP-004 through SP-006."
+  ],
+  "id" : {
+    "rawValue" : "PLAN-003"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+    "User-directed planning completion; activation remains separate explicit authorization."
+  ],
+  "proposedByActorID" : {
+    "rawValue" : "ACTOR-LLM"
+  },
+  "scope" : [
+    "Detailed plan: docs\/Epics\/EP-003-Planning.md. No Sprint activation or implementation authorization.",
+    "SP-004 \/ T-0002: monophonic renderer, ramps, state boundary, deterministic signal tests.",
+    "SP-005 \/ T-0016: approved timbre definitions and deterministic signal qualification.",
+    "SP-006 \/ T-0017: audio session, routes, interruptions, recovery, and lifecycle qualification."
+  ],
+  "summary" : "Three sequential planning-only Sprints isolate monophonic rendering, timbre qualification, and audio-session lifecycle behavior.",
+  "targetEpicID" : {
+    "rawValue" : "EP-003"
+  },
+  "targetSprintID" : {
+    "rawValue" : "SP-006"
+  },
+  "targetTaskIDs" : [
+    {
+      "rawValue" : "T-0002"
+    },
+    {
+      "rawValue" : "T-0016"
+    },
+    {
+      "rawValue" : "T-0017"
+    }
+  ],
+  "title" : "EP-003 audio synthesis and playback Sprint plan",
+  "verificationCriteria" : [
+    "Canonical diagnostics, coverage review, and task-packet review pass; no implementation or acceptance is claimed."
+  ]
+}

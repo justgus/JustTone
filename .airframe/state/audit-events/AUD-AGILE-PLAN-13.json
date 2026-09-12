@@ -1,0 +1,37 @@
+{
+  "afterRecordID" : {
+    "rawValue" : "PLAN-003"
+  },
+  "beforeRecordID" : {
+    "rawValue" : "PLAN-003"
+  },
+  "event" : {
+    "action" : "OP-HUMAN-APPROVE-PLAN",
+    "actorID" : {
+      "rawValue" : "ACTOR-HUMAN-REVIEWER"
+    },
+    "decision" : {
+      "allowed" : {
+        "reason" : "allowed"
+      }
+    },
+    "id" : {
+      "rawValue" : "AUD-AGILE-PLAN-13"
+    },
+    "reason" : "allowed",
+    "targetProjectID" : {
+      "rawValue" : "PRJ-JUSTTONE"
+    },
+    "timestamp" : "2026-09-12T16:06:20Z",
+    "workItemID" : {
+      "rawValue" : "PLAN-003"
+    }
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  }
+}
