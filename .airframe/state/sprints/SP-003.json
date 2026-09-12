@@ -1,0 +1,32 @@
+{
+  "epicID": {
+    "rawValue": "EP-002"
+  },
+  "goal": "Deliver generalized tuning definitions and qualify the integrated shared domain engine.",
+  "issueIDs": [],
+  "metadata": {
+    "schemaVersion": {
+      "major": 1,
+      "minor": 0,
+      "patch": 0
+    },
+    "updatedAt": "2026-09-06T21:09:02Z"
+  },
+  "notes": [
+    "PLAN-002 approved for planning. Dates and activation await user authorization.",
+    "Depends on T-0007 and review of SP-002; Sprints are sequential."
+  ],
+  "taskIDs": [
+    {
+      "rawValue": "T-0015"
+    }
+  ],
+  "workItem": {
+    "id": {
+      "rawValue": "SP-003"
+    },
+    "kind": "sprint",
+    "status": "planning",
+    "title": "Generalized Tuning and Engine Qualification"
+  }
+}

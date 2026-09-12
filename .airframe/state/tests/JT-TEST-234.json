@@ -1,0 +1,52 @@
+{
+  "acceptanceCriterionIDs" : [
+
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Each supported value retains its entered identity; invalid values are deterministically rejected; calculation error is at most ±0.1 cent."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-234"
+  },
+  "kind" : "unit",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+    "SP-002 domain scope only. User-entry UI and rendered-audio analysis remain downstream."
+  ],
+  "objective" : "Verify the platform-neutral pitch domain accepts, preserves, and resolves direct-frequency values without a note identity while retaining calculation precision.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-016"
+    },
+    {
+      "rawValue" : "JT-NFR-002"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Resolve representative and boundary direct-frequency values at 0.1 Hz resolution without a named pitch.",
+    "Reject non-finite, out-of-range, and finer-than-0.1-Hz values deterministically.",
+    "Compare resulting frequencies with independently derived vectors and calculate cent error."
+  ],
+  "title" : "Direct-frequency and calculation precision",
+  "workItemIDs" : [
+    {
+      "rawValue" : "SP-002"
+    },
+    {
+      "rawValue" : "T-0007"
+    }
+  ]
+}

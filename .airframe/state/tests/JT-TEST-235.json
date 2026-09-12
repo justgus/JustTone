@@ -1,0 +1,54 @@
+{
+  "acceptanceCriterionIDs" : [
+    {
+      "rawValue" : "JT-AC-009"
+    }
+  ],
+  "artifactReferences" : [
+
+  ],
+  "evidenceIDs" : [
+
+  ],
+  "expectedResults" : [
+    "Written and sounding values round-trip without drift or spelling loss; stored domain values remain locale-independent."
+  ],
+  "id" : {
+    "rawValue" : "JT-TEST-235"
+  },
+  "kind" : "unit",
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+    "SP-002 domain scope only. UI presentation and audio-playback verification remain downstream."
+  ],
+  "objective" : "Verify platform-neutral written and sounding pitch transformations are reversible, preserve selected spelling, and use locale-independent numeric values.",
+  "requirementIDs" : [
+    {
+      "rawValue" : "JT-FR-032"
+    },
+    {
+      "rawValue" : "JT-FR-091"
+    }
+  ],
+  "status" : "ready",
+  "steps" : [
+    "Transform representative written pitches across positive and negative transpositions, including octave crossings.",
+    "Round-trip each transformation and verify note, accidental, octave, preferred spelling, and frequency identity.",
+    "Repeat numeric transformations under representative locale settings without changing stored numeric values."
+  ],
+  "title" : "Written–sounding transposition and locale invariance",
+  "workItemIDs" : [
+    {
+      "rawValue" : "SP-002"
+    },
+    {
+      "rawValue" : "T-0007"
+    }
+  ]
+}

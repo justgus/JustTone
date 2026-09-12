@@ -1,0 +1,59 @@
+{
+  "auditEventIDs" : [
+    {
+      "rawValue" : "AUD-AGILE-PLAN-16"
+    }
+  ],
+  "commands" : [
+
+  ],
+  "decisionState" : "approved",
+  "evidenceIDs" : [
+
+  ],
+  "externalEffects" : [
+
+  ],
+  "fileChanges" : [
+    "Planning documentation and canonical PLAN-002; creation of proposed T-0015 and Sprint records and refinement of T-0007 remain planning follow-through."
+  ],
+  "id" : {
+    "rawValue" : "PLAN-002"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+    "Approval of planning does not activate a Sprint or authorize implementation. Cross-Epic acceptance boundaries are explicit in the planning document.",
+    "T-0015 is a proposed Task reference; its canonical Task record has not yet been created.",
+    "approved"
+  ],
+  "proposedByActorID" : {
+    "rawValue" : "ACTOR-LLM"
+  },
+  "scope" : [
+    "Detailed plan: docs\/Epics\/EP-002-Planning.md. Two Sprints confirmed by the user; planning only.",
+    "SP-002 \/ T-0007: pitch identity, reference frequency, direct frequency, transposition, and accuracy tests.",
+    "SP-003 \/ T-0015: generalized tuning models, contextual metadata, and integrated engine qualification; depends on T-0007."
+  ],
+  "summary" : "Two sequential Sprints selected by the user: SP-002 covers core pitch, reference and transposition using T-0007; SP-003 covers generalized tuning and integrated domain qualification using proposed T-0015.",
+  "targetEpicID" : {
+    "rawValue" : "EP-002"
+  },
+  "targetTaskIDs" : [
+    {
+      "rawValue" : "T-0007"
+    },
+    {
+      "rawValue" : "T-0015"
+    }
+  ],
+  "title" : "EP-002 pitch and tuning engine Sprint plan",
+  "verificationCriteria" : [
+    "Canonical state diagnostics and test traceability pass; both Task IDs appear in PLAN-002; no implementation or acceptance is claimed."
+  ]
+}

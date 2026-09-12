@@ -1,9 +1,10 @@
 {
   "acceptanceCriteria" : [
-    "Shared pitch identity and frequency calculations cover named pitches, direct frequencies, reference adjustment, and transposition.",
-    "Equal divisions, ratios, cents, and explicit-frequency tuning models resolve deterministically within approved bounds.",
-    "Pitch and tuning calculations meet the ±0.1-cent accuracy requirement with boundary tests.",
-    "The shared domain is usable unchanged by iPhone and Watch targets."
+    "Named pitches retain note, accidental, octave and preferred spelling; default twelve-tone equal temperament uses A4 = 440.0 Hz.",
+    "A4 accepts 350.0 through 500.0 Hz in 0.1 Hz increments; recalculation preserves identity. Direct frequencies accept 16.0 through 12000.0 Hz in 0.1 Hz increments without a note name.",
+    "Written\/sounding pitch and reversible transposition preserve identity and spelling; internal numeric values remain locale-independent.",
+    "Calculated frequencies retain internal precision and satisfy ±0.1-cent accuracy with deterministic invalid-input handling and boundary tests.",
+    "The same domain fixtures pass in package, iPhone and Watch test hosts."
   ],
   "component" : "Shared Domain",
   "componentsAffected" : [
@@ -22,26 +23,54 @@
       "minor" : 0,
       "patch" : 0
     },
-    "updatedAt" : "2026-09-04T19:40:25Z"
+    "updatedAt" : "2026-09-11T21:39:29Z"
   },
   "notes" : [
-
+    "PLAN-002 approved for planning; activation and implementation require separate user authorization.",
+    "Detailed scope and cross-Epic acceptance boundaries: docs\/Epics\/EP-002-Planning.md.",
+    "Scope: Packages\/JustToneCore, necessary iPhone\/Watch test hosts, architecture and evidence documentation. No audio, persistence, synchronization, catalog content, or authoring UI implementation.",
+    "Prerequisite: completed EP-001.",
+    "Epic criteria: JT-AC-006, JT-AC-009 and calculation contribution to JT-AC-010. JT-TEST-006\/007\/008 provide baseline cases; persistence and relaunch remain downstream."
   ],
   "priority" : "high",
-  "rationale" : "All playback and profile behavior depends on deterministic shared musical mathematics.",
+  "rationale" : "Establish the tested pitch semantics on which generalized tuning depends.",
   "requirementIDs" : [
-
+    {
+      "rawValue" : "JT-FR-001"
+    },
+    {
+      "rawValue" : "JT-FR-002"
+    },
+    {
+      "rawValue" : "JT-FR-003"
+    },
+    {
+      "rawValue" : "JT-FR-016"
+    },
+    {
+      "rawValue" : "JT-FR-032"
+    },
+    {
+      "rawValue" : "JT-FR-091"
+    },
+    {
+      "rawValue" : "JT-NFR-002"
+    }
   ],
+  "sprintID" : {
+    "rawValue" : "SP-002"
+  },
   "testSteps" : [
-    "Run calculation, boundary, enharmonic, transposition, and tuning-model unit tests.",
-    "Verify identical shared-domain behavior from iPhone and Watch test hosts."
+    "Test default pitch, enharmonic pairs, octave crossings, all supported A4 reference increments and direct-frequency endpoints; reject or explicitly document normalization of invalid inputs.",
+    "Compare independently derived frequency fixtures; test reversible transposition, spelling preservation, non-finite inputs and out-of-range results.",
+    "Run beta-toolchain package tests; inspect schemes\/destinations and run shared fixtures through iPhone and Watch test hosts, recording actual commands and results."
   ],
   "workItem" : {
     "id" : {
       "rawValue" : "T-0007"
     },
     "kind" : "task",
-    "status" : "backlog",
-    "title" : "Implement pitch, tuning, and temperament domain engine"
+    "status" : "active",
+    "title" : "Implement pitch identity, reference, and transposition"
   }
 }
