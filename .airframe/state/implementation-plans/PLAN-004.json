@@ -1,0 +1,53 @@
+{
+  "auditEventIDs" : [
+
+  ],
+  "commands" : [
+    "DEVELOPER_DIR=\/Applications\/Xcode-beta.app\/Contents\/Developer swift test --package-path Packages\/JustToneCore; inspect destinations; run focused JustToneTests and JustToneWatchTests with Xcode-beta."
+  ],
+  "decisionState" : "pending",
+  "evidenceIDs" : [
+
+  ],
+  "externalEffects" : [
+    "No remote, account, network, sample-library, entitlement, or background-mode change. Physical listening evidence is deferred to user\/device qualification."
+  ],
+  "fileChanges" : [
+    "Add shared timbre-definition and renderer extension sources, deterministic qualification tests, iPhone and Watch host fixture tests, and architecture\/qualification documentation during authorized implementation."
+  ],
+  "id" : {
+    "rawValue" : "PLAN-004"
+  },
+  "metadata" : {
+    "schemaVersion" : {
+      "major" : 1,
+      "minor" : 0,
+      "patch" : 0
+    }
+  },
+  "notes" : [
+    "PLAN-004 is planning only and does not activate SP-005 or authorize implementation."
+  ],
+  "proposedByActorID" : {
+    "rawValue" : "ACTOR-LLM"
+  },
+  "scope" : [
+    "Shared platform-neutral timbre catalog and render strategy; package plus iPhone and Watch deterministic test hosts; no UI, persistence, session integration, microphone, samples, or external services."
+  ],
+  "summary" : "Plan the eight built-in procedural timbres, their declarative shared definition model, deterministic signal qualification, and separately recorded physical listening obligations.",
+  "targetEpicID" : {
+    "rawValue" : "EP-003"
+  },
+  "targetSprintID" : {
+    "rawValue" : "SP-005"
+  },
+  "targetTaskIDs" : [
+    {
+      "rawValue" : "T-0016"
+    }
+  ],
+  "title" : "SP-005 Timbre Qualification Plan",
+  "verificationCriteria" : [
+    "Automate identity, schema, spectral, pitch, sustain, aliasing, peak, RMS, and transition checks for every timbre; record physical route\/listening review as pending rather than passing automatically."
+  ]
+}

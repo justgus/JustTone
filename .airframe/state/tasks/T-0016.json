@@ -21,7 +21,7 @@
       "minor" : 0,
       "patch" : 0
     },
-    "updatedAt" : "2026-09-12T16:05:04Z"
+    "updatedAt" : "2026-09-12T19:59:51Z"
   },
   "notes" : [
     "Depends on T-0002 implementation evidence; no catalog persistence, authoring UI, synchronization, or external services."
@@ -29,7 +29,57 @@
   "priority" : "high",
   "rationale" : "Depends on T-0002 implementation evidence; no catalog persistence, authoring UI, synchronization, or external services.",
   "requirementIDs" : [
-
+    {
+      "rawValue" : "JT-DR-006"
+    },
+    {
+      "rawValue" : "JT-FR-012"
+    },
+    {
+      "rawValue" : "JT-FR-013"
+    },
+    {
+      "rawValue" : "JT-FR-014"
+    },
+    {
+      "rawValue" : "JT-FR-072"
+    },
+    {
+      "rawValue" : "JT-FR-073"
+    },
+    {
+      "rawValue" : "JT-FR-074"
+    },
+    {
+      "rawValue" : "JT-FR-077"
+    },
+    {
+      "rawValue" : "JT-FR-078"
+    },
+    {
+      "rawValue" : "JT-NFR-001"
+    },
+    {
+      "rawValue" : "JT-NFR-003"
+    },
+    {
+      "rawValue" : "JT-NFR-017"
+    },
+    {
+      "rawValue" : "JT-NFR-019"
+    },
+    {
+      "rawValue" : "JT-NFR-020"
+    },
+    {
+      "rawValue" : "JT-NFR-021"
+    },
+    {
+      "rawValue" : "JT-NFR-022"
+    },
+    {
+      "rawValue" : "JT-NFR-039"
+    }
   ],
   "sprintID" : {
     "rawValue" : "SP-005"
